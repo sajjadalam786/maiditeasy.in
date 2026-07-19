@@ -24,17 +24,15 @@ $additional_styles = "
 .blog-card:hover {
     transform: translateY(-5px);
 }
-.blog-img-placeholder {
+.blog-img-container {
     height: 180px;
     background: #e9ecef;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6c757d;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
+    overflow: hidden;
+}
+.blog-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .blog-content {
     padding: 20px;
@@ -110,8 +108,8 @@ include '../includes/header.php';
                 <div class="blog-grid">
                     <!-- Blog Card 1 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=1';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Nanny for newborn baby care services and babysitting near me.">
-                            Nanny for newborn baby care services
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-1.jpg" alt="Nanny for newborn baby care services and babysitting near me.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">How to Hire a Babysitter or Nanny for Newborn Care</h3>
@@ -122,8 +120,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 2 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=2';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Hiring cook service for home and finding trusted cooks near me.">
-                            Hiring cook service for home
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-2.jpg" alt="Hiring cook service for home and finding trusted cooks near me.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">Finding the Best Cook Service and Cooks Near Me</h3>
@@ -134,8 +132,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 3 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=3';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Cleaners doing cleaning home service and housemaid service.">
-                            Cleaners doing cleaning home service
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-3.jpg" alt="Cleaners doing cleaning home service and housemaid service.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">The Importance of Professional Cleaning Housekeeping Services</h3>
@@ -146,8 +144,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 4 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=4';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Security Guard agency providing security guard services near me.">
-                            Security Guard agency services
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-4.jpg" alt="Security Guard agency providing security guard services near me.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">How to Select the Right Security Guard Agency</h3>
@@ -158,8 +156,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 5 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=5';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Maid service provider helping client with domestic maid tasks.">
-                            Maid service provider helper
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-5.jpg" alt="Maid service provider helping client with domestic maid tasks.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">Why You Need Maid Services for a Stress-Free Household</h3>
@@ -170,8 +168,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 6 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=6';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Nanny needed for kids child care and babysitting services.">
-                            Nanny needed for child care
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-6.jpg" alt="Nanny needed for kids child care and babysitting services.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">Tips for Parents: What to Look for in Babysitting Services</h3>
@@ -182,8 +180,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 7 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=7';">
-                        <div class="blog-img-placeholder" aria-label="Alt: House cleaning services and housekeeping staff cleaners.">
-                            House cleaning services staff
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-7.jpg" alt="House cleaning services and housekeeping staff cleaners.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">House Cleaning Services vs. Standard Housemaid Service</h3>
@@ -194,8 +192,8 @@ include '../includes/header.php';
 
                     <!-- Blog Card 8 -->
                     <div class="blog-card" onclick="location.href='blog-details.php?id=8';">
-                        <div class="blog-img-placeholder" aria-label="Alt: Hire a babysitter, maid for hire or cook service on our platform.">
-                            Hire a babysitter, maid or cook
+                        <div class="blog-img-container">
+                            <img src="../assets/img/blog/blog-8.jpg" alt="Hire a babysitter, maid for hire or cook service on our platform.">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title">Steps to Hire Maid Assistants and Housekeeping Helpers Securely</h3>

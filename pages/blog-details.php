@@ -141,9 +141,8 @@ include '../includes/header.php';
                     <!-- Column 1: Detailed Blog Content -->
                     <div class="col-lg-7 mb-40">
                         <div class="tp-service-details">
-                            <!-- Image Alt Placeholder -->
-                            <div style="background-color: #e9ecef; border-radius: 8px; height: 350px; display: flex; align-items: center; justify-content: center; color: #6c757d; font-size: 16px; font-weight: bold; margin-bottom: 30px; text-align: center; padding: 20px;" aria-label="Alt: <?php echo htmlspecialchars($post['image_alt']); ?>">
-                                [ Image Placeholder: <?php echo htmlspecialchars($post['image_alt']); ?> ]
+                            <div class="tp-service-details-img mb-30" style="border-radius: 8px; overflow: hidden; height: 380px;">
+                                <img src="../assets/img/blog/blog-<?php echo $blog_id; ?>.jpg" alt="<?php echo htmlspecialchars($post['image_alt']); ?>" style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
                             
                             <h1 style="font-size: 32px; font-weight: 800; color: #0e0035; margin-bottom: 25px; line-height: 1.3;"><?php echo htmlspecialchars($post['title']); ?></h1>
