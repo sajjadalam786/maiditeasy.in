@@ -157,6 +157,50 @@ $current_page = basename($_SERVER['PHP_SELF']);
       .tp-main-menu ul li a::after {
           display: none !important;
       }
+      .tp-services {
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+          height: calc(100% - 30px);
+      }
+      .tp-services-text {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+      }
+      .tp-services-text p {
+          flex-grow: 1;
+          min-height: 80px;
+      }
+      @media (max-width: 575px) {
+          .tp-services {
+              padding: 15px 10px !important;
+              height: calc(100% - 15px) !important;
+              margin-bottom: 15px !important;
+          }
+          .tp-services-text-title {
+              font-size: 14px !important;
+              min-height: auto !important;
+              margin-bottom: 8px !important;
+          }
+          .tp-services-text p {
+              font-size: 11px !important;
+              margin-bottom: 10px !important;
+              line-height: 1.4 !important;
+              min-height: 65px !important;
+          }
+          .tp-services-icon {
+              width: 45px !important;
+              height: 45px !important;
+              line-height: 45px !important;
+              font-size: 18px !important;
+              margin-bottom: 12px !important;
+          }
+          .tp-services-icon img {
+              width: 22px !important;
+              height: 22px !important;
+          }
+      }
 
       .float {
           position:fixed;
@@ -325,11 +369,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                               <nav id="tp-mobile-menu">
                                   <ul>
                                       <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>index.php" class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>">Home</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
                                       <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>services/maids-cooks-babysitter-nanny-driver-watchman-service.php" class="<?php echo ($current_page == 'maids-cooks-babysitter-nanny-driver-watchman-service.php') ? 'active' : ''; ?>">Services</a></li>
                                       
                                       <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/blogs.php" class="<?php echo ($current_page == 'blogs.php') ? 'active' : ''; ?>">Blogs</a></li>
                                       <li><a href="<?php echo $root_prefix; ?>pages/contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact Us</a></li>
-                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/career.php" class="<?php echo ($current_page == 'career.php') ? 'active' : ''; ?>">Career</a></li>
                                       <li class="menu-item-has-children" style="margin-left: 5px;"><a href="tel:9866769832" class="yellow-btn" style="color: #0e0035 !important; font-weight: bold; border-radius: 6px !important; padding: 8px 15px !important; font-size: 13px !important; display: inline-flex; align-items: center; gap: 5px; height: auto; line-height: 1.2;"><i class="fas fa-phone-alt"></i> +91 98667 69832</a></li>
                                   </ul>
                               </nav>

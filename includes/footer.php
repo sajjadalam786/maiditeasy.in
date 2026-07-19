@@ -88,15 +88,16 @@
                                 <li><a href="<?php echo $root_prefix; ?>pages/about.php">About us</a></li>
                                 <li><a href="https://maiditeasy.co.in/review/">Testimonials</a></li>
                                 <li><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php">Terms & Conditions</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/career.php">Careers</a></li>
                             </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="tp-footer-widget footer-col-4 mb-30">
-                            <h4 class="tp-footer-widget-title mb-40" onclick="location.href='https://maiditeasy.co.in/blogs/'">Blogs</h4>
+                            <h4 class="tp-footer-widget-title mb-40">Blogs</h4>
                              <ul>
-                                <li><a href="https://maiditeasy.co.in/blogs/">Latest Blogs</a></li> 
+                                <li><a href="<?php echo $root_prefix; ?>pages/blogs.php">Latest Blogs</a></li> 
                             </ul>
                         </div>
                     </div>

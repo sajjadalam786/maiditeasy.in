@@ -18,6 +18,7 @@ $additional_styles = "
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .service-card-item:hover {
     transform: translateY(-3px);
@@ -61,9 +62,34 @@ $additional_styles = "
     color: #0e0035;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .service-card-grid {
-        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .service-card-item {
+        padding: 15px 10px;
+    }
+    .service-icon-box {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .service-icon-box img {
+        width: 20px;
+        height: 20px;
+    }
+    .service-card-title {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .service-card-desc {
+        font-size: 11px;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+    .service-card-btn {
+        font-size: 11px;
     }
 }
 ";
@@ -102,7 +128,7 @@ include '../includes/header.php';
                             
                             <div class="service-card-grid">
                                 <!-- Maid Service -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='maid-service.php';">
                                     <div class="service-icon-box"><i class="flaticon-cleaning"></i></div>
                                     <h3 class="service-card-title">Maid Service</h3>
                                     <p class="service-card-desc">Professional domestic maids to manage your daily home routines including deep dusting, sweeping, mopping, utensil washing, and laundry chores.</p>
@@ -110,7 +136,7 @@ include '../includes/header.php';
                                 </div>
 
                                 <!-- Cook Service -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='cook-service.php';">
                                     <div class="service-icon-box"><i class="flaticon-pot"></i></div>
                                     <h3 class="service-card-title">Cook Service</h3>
                                     <p class="service-card-desc">Enjoy delicious, hygienic home-style food prepared in your kitchen. Options available for general home cooks and pure vegetarian brahmin cook specialists.</p>
@@ -118,7 +144,7 @@ include '../includes/header.php';
                                 </div>
 
                                 <!-- Babysitter & Nanny -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='babysitter-nanny-service.php';">
                                     <div class="service-icon-box"><i class="flaticon-boy"></i></div>
                                     <h3 class="service-card-title">Babysitter & Nanny</h3>
                                     <p class="service-card-desc">Warm, experienced child care assistants. Trusted nanny service for newborn baby care, toddler babysitting, and child companions.</p>
@@ -126,7 +152,7 @@ include '../includes/header.php';
                                 </div>
 
                                 <!-- Elderly Care -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='elderly-care-service.php';">
                                     <div class="service-icon-box"><img src="../assets/old-man.png" style="width: 25px; height: 25px; filter: invert(53%) sepia(85%) saturate(1455%) hue-rotate(1deg) brightness(102%) contrast(101%);" alt="Elderly Care Icon"></div>
                                     <h3 class="service-card-title">Elderly Care</h3>
                                     <p class="service-card-desc">Compassionate and patient care for senior family members. Assistance with daily routines, mobility, and medical tracking companionship.</p>
@@ -134,7 +160,7 @@ include '../includes/header.php';
                                 </div>
 
                                 <!-- Driver Service -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='driver-service.php';">
                                     <div class="service-icon-box"><img src="../assets/person.png" style="width: 25px; height: 25px; filter: invert(53%) sepia(85%) saturate(1455%) hue-rotate(1deg) brightness(102%) contrast(101%);" alt="Driver Icon"></div>
                                     <h3 class="service-card-title">Driver Service</h3>
                                     <p class="service-card-desc">Experienced and licensed private chauffeurs for your personal cars. Perfect for business travels, daily commutes, or outstation tours.</p>
@@ -142,7 +168,7 @@ include '../includes/header.php';
                                 </div>
 
                                 <!-- Security Guard / Watchman -->
-                                <div class="service-card-item">
+                                <div class="service-card-item" onclick="location.href='watchman-security-guard-service.php';">
                                     <div class="service-icon-box"><img src="../assets/person.png" style="width: 25px; height: 25px; filter: invert(53%) sepia(85%) saturate(1455%) hue-rotate(1deg) brightness(102%) contrast(101%);" alt="Security Guard Icon"></div>
                                     <h3 class="service-card-title">Watchman & Security Guard</h3>
                                     <p class="service-card-desc">Trained and background-verified watchmen and security personnel to safeguard residential apartments, bungalows, and offices.</p>

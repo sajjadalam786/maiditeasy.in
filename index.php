@@ -75,8 +75,8 @@ include 'includes/header.php';
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/maid-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                               <i class="flaticon-cleaning"></i>
                       </div>
@@ -85,7 +85,7 @@ include 'includes/header.php';
                           <a href="services/maid-service.php">Maid</a>
                         </h3>
                         <p class="mb-20">
-                          Facilities covered: Cleaning all the areas of your house, washing utensils, clothes etc.
+                          Professional helper to clean your house, sweep/mopping, wash utensils, laundry, and keep rooms immaculate.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/maid-service.php"><i class="flaticon-enter"></i> BOOK</a>
@@ -93,8 +93,8 @@ include 'includes/header.php';
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/cook-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                              <i class="flaticon-pot"></i>
                       </div>
@@ -103,7 +103,7 @@ include 'includes/header.php';
                           <a href="services/cook-service.php">Cook</a>
                         </h3>
                         <p class="mb-20">
-                          The Cooks at Maid It Easy are capable of cooking all types of cuisines.
+                          Experienced kitchen cook to prepare delicious, healthy daily meals customized exactly to your family taste.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/cook-service.php"><i class="flaticon-enter"></i> BOOK</a>
@@ -111,8 +111,8 @@ include 'includes/header.php';
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/babysitter-nanny-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                         <i class="flaticon-boy"></i>
                       </div>
@@ -121,7 +121,7 @@ include 'includes/header.php';
                           <a href="services/babysitter-nanny-service.php">Babysitter/ Nanny</a>
                         </h3>
                         <p class="mb-20">
-                         To ensure the safety, well <br>being and engagement <br>of the children.
+                          Experienced child caretakers to ensure safety, nurturing support, and playful engagement for children.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/babysitter-nanny-service.php"><i class="flaticon-enter"></i> BOOK</a>
@@ -129,8 +129,8 @@ include 'includes/header.php';
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/elderly-care-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                         <i> <img src="assets/old-man.png" alt="Elderly Care Icon"> </i>
                       </div>
@@ -139,7 +139,7 @@ include 'includes/header.php';
                           <a href="services/elderly-care-service.php">Elderly Care</a>
                         </h3>
                         <p class="mb-20">
-                          We take care of your elders with lots of patience, respect & clinical awareness.
+                          Patient senior caretakers to provide companionship, mobility support, and daily medication monitoring.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/elderly-care-service.php"><i class="flaticon-enter"></i> BOOK</a>
@@ -147,8 +147,8 @@ include 'includes/header.php';
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/driver-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                      <i> <img src="assets/person.png" alt="Driver Icon"></i>
                       </div>
@@ -157,7 +157,7 @@ include 'includes/header.php';
                           <a href="services/driver-service.php">Driver</a>
                         </h3>
                         <p class="mb-20">
-                          All our drivers are highly trained & experienced to drive you safely to your destinations.
+                          Safe, background-verified personal drivers for daily city commuting or stress-free outstation travels.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/driver-service.php"><i class="flaticon-enter"></i> BOOK</a>
@@ -165,8 +165,8 @@ include 'includes/header.php';
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-sm-6">
-                    <div class="tp-services white-bg mb-30">
+                  <div class="col-xl-4 col-sm-6 col-6">
+                    <div class="tp-services white-bg mb-30" onclick="location.href='services/watchman-security-guard-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
                      <i> <img src="assets/person.png" alt="Security Guard Icon"></i>
                       </div>
@@ -175,7 +175,7 @@ include 'includes/header.php';
                           <a href="services/watchman-security-guard-service.php">Watchman/ Security Guard</a>
                         </h3>
                         <p class="mb-20">
-                          To keep our clients safe and secure, all of our watchmen undergo extensive training.
+                          Trained compound watchmen and security personnel to safeguard your property and monitor visitor logs.
                         </p>
                         <div class="tp-services-text-link">
                           <a href="services/watchman-security-guard-service.php"><i class="flaticon-enter"></i> BOOK</a>
