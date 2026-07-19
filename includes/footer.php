@@ -85,10 +85,12 @@
                             <h4 class="tp-footer-widget-title mb-35">Important Links</h4>
                             <div class="tp-footer-news tp-footer-news-three">
                                <ul>
+                                <li><a href="<?php echo $root_prefix; ?>index.php">Home</a></li>
                                 <li><a href="<?php echo $root_prefix; ?>pages/about.php">About us</a></li>
-                                <li><a href="https://maiditeasy.co.in/review/">Testimonials</a></li>
-                                <li><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php">Terms & Conditions</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/contact.php">Contact Us</a></li>
                                 <li><a href="<?php echo $root_prefix; ?>pages/career.php">Careers</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php">Terms & Conditions</a></li>
                             </ul>
                             </div>
                         </div>
