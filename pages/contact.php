@@ -1,13 +1,13 @@
 <?php
 $page_title = "Contact Us | Maid It Easy";
 $page_description = "Get in touch with Maid It Easy. Fill out our contact form or reach out via WhatsApp to hire verified maids, cooks, and babysitters. We serve Hyderabad, Pune, Mumbai, and more.";
-$canonical_url = "https://maiditeasy.in/contact.php";
+$canonical_url = "https://maiditeasy.in/pages/contact.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
-        <div class="tp-page-title-area pt-180 pb-185 position-relative fix" data-background="assets/img/slider/breadcrumb-bg-1.jpg">
+        <div class="tp-page-title-area pt-180 pb-185 position-relative fix" data-background="../assets/img/slider/breadcrumb-bg-1.jpg">
             <div class="tp-custom-container">
                 <div class="row">
                     <div class="col-12">
@@ -16,7 +16,7 @@ include 'includes/header.php';
                             <div class="breadcrumb-menu">
                                 <nav class="breadcrumb-trail breadcrumbs">
                                     <ul class="trail-items">
-                                        <li class="trail-item trail-begin"><a href="index.php">Home</a></li>
+                                        <li class="trail-item trail-begin"><a href="../index.php">Home</a></li>
                                         <li class="trail-item trail-end"><span>Contact us</span></li>
                                     </ul>
                                 </nav>
@@ -92,5 +92,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

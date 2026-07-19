@@ -1,10 +1,10 @@
 <?php
 $page_title = "Book Watchman/ Security Guard Service | Maid It Easy";
 $page_description = "Book strictly vetted, professional watchmen and security guards with Maid It Easy. Protect your home and family.";
-$canonical_url = "https://maiditeasy.in/watchman-security-guard-service.php";
+$canonical_url = "https://maiditeasy.in/services/watchman-security-guard-service.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -23,5 +23,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

@@ -1,7 +1,7 @@
 <?php
 $page_title = "Thank You - Maid It Easy";
 $page_description = "Your submission has been received successfully. Our team will contact you soon.";
-$canonical_url = "https://maiditeasy.in/book-now-thank-you.php";
+$canonical_url = "https://maiditeasy.in/pages/book-now-thank-you.php";
 $additional_styles = "
         /* Button styles */
         .button {
@@ -20,14 +20,14 @@ $additional_styles = "
           border-radius: 8px;
         }
 ";
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90 text-center">
           <div class="container">
             <h2 class="tp-section-title heading-color-black pt-10 mb-20">Thank You!</h2>
             <p style="font-size: 18px; color: #555;">Your submission has been received successfully. Our team will contact you soon.</p>
-            <a href="index.php" class="button button3 mt-3">Go Back to Home</a>
+            <a href="../index.php" class="button button3 mt-3">Go Back to Home</a>
           </div>
         </section>
 
@@ -50,5 +50,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

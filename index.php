@@ -26,12 +26,12 @@ include 'includes/header.php';
                            
                           <div class="hero-btn-grid" data-animation="fadeInUp" data-delay="1.1s">
                              <!-- Rule 7: Maid points to maid-service.html -->
-                             <a href="maid-service.php" class="btn">Maid</a>
-                             <a href="watchman-security-guard-service.php" class="btn">Watchman/<br>Security Guard</a>
-                             <a href="cook-service.php" class="btn">Cook</a>
-                             <a href="driver-service.php" class="btn">Driver</a>
-                             <a href="babysitter-nanny-service.php" class="btn">Babysitter/ Nanny</a>
-                             <a href="elderly-care-service.php" class="btn">Elderly Care</a>
+                             <a href="services/maid-service.php" class="btn">Maid</a>
+                             <a href="services/watchman-security-guard-service.php" class="btn">Watchman/<br>Security Guard</a>
+                             <a href="services/cook-service.php" class="btn">Cook</a>
+                             <a href="services/driver-service.php" class="btn">Driver</a>
+                             <a href="services/babysitter-nanny-service.php" class="btn">Babysitter/ Nanny</a>
+                             <a href="services/elderly-care-service.php" class="btn">Elderly Care</a>
                           </div>
                           
                         </div>
@@ -82,13 +82,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="maid-service.php">Maid</a>
+                          <a href="services/maid-service.php">Maid</a>
                         </h3>
                         <p class="mb-20">
                           Facilities covered: Cleaning all the areas of your house, washing utensils, clothes etc.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="maid-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/maid-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>
@@ -100,13 +100,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="cook-service.php">Cook</a>
+                          <a href="services/cook-service.php">Cook</a>
                         </h3>
                         <p class="mb-20">
                           The Cooks at Maid It Easy are capable of cooking all types of cuisines.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="cook-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/cook-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>
@@ -118,13 +118,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="babysitter-nanny-service.php">Babysitter/ Nanny</a>
+                          <a href="services/babysitter-nanny-service.php">Babysitter/ Nanny</a>
                         </h3>
                         <p class="mb-20">
                          To ensure the safety, well <br>being and engagement <br>of the children.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="babysitter-nanny-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/babysitter-nanny-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>
@@ -136,13 +136,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="elderly-care-service.php">Elderly Care</a>
+                          <a href="services/elderly-care-service.php">Elderly Care</a>
                         </h3>
                         <p class="mb-20">
                           We take care of your elders with lots of patience, respect & clinical awareness.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="elderly-care-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/elderly-care-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>
@@ -154,13 +154,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="driver-service.php">Driver</a>
+                          <a href="services/driver-service.php">Driver</a>
                         </h3>
                         <p class="mb-20">
                           All our drivers are highly trained & experienced to drive you safely to your destinations.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="driver-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/driver-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>
@@ -172,13 +172,13 @@ include 'includes/header.php';
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
-                          <a href="watchman-security-guard-service.php">Watchman/ Security Guard</a>
+                          <a href="services/watchman-security-guard-service.php">Watchman/ Security Guard</a>
                         </h3>
                         <p class="mb-20">
                           To keep our clients safe and secure, all of our watchmen undergo extensive training.
                         </p>
                         <div class="tp-services-text-link">
-                          <a href="watchman-security-guard-service.php"><i class="flaticon-enter"></i> BOOK</a>
+                          <a href="services/watchman-security-guard-service.php"><i class="flaticon-enter"></i> BOOK</a>
                         </div>
                       </div>
                     </div>

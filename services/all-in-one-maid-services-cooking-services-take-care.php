@@ -1,10 +1,10 @@
 <?php
 $page_title = "Book Now | All Types of Domestic Help Service";
 $page_description = "Welcome to Maid It Easy, your ultimate all-in-one solution for reliable domestic help. Book strictly vetted, background-verified maids, professional cooks, caring babysitters, and dependable drivers. Experience hassle-free service with guaranteed replacements.";
-$canonical_url = "https://maiditeasy.in/all-in-one-maid-services-cooking-services-take-care.php";
+$canonical_url = "https://maiditeasy.in/services/all-in-one-maid-services-cooking-services-take-care.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -22,5 +22,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

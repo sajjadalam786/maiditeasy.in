@@ -55,7 +55,7 @@
                         <div class="tp-footer-widget footer-col-1 mb-30">
                             <div class="tp-footer-info tp-footer-info-three">
                                 <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.php"><img src="assets/img/logo/logo-white.png" width="180" height="55" class="img-fluid" alt="Maid It Easy Logo Footer"></a>
+                                    <a href="<?php echo $root_prefix; ?>index.php"><img src="<?php echo $root_prefix; ?>assets/img/logo/logo-white.png" width="180" height="55" class="img-fluid" alt="Maid It Easy Logo Footer"></a>
                                 </div>
                                 <p class="text-white mb-35">We are india's most promising & leading provider of house help in various forms.</p>
                                 <div class="tp-footer-info-social tp-footer-info-social-three">
@@ -71,12 +71,12 @@
                         <div class="tp-footer-widget footer-col-2 mb-30">
                             <h4 class="tp-footer-widget-title mb-35">Our Services</h4>
                             <ul>
-                                <li><a href="maid-service.php">Maid</a></li>
-                                <li><a href="cook-service.php">Cook</a></li>
-                                <li><a href="driver-service.php">Driver</a></li>
-                                <li><a href="babysitter-nanny-service.php">Babysitter/ Nanny</a></li>
-                                <li><a href="elderly-care-service.php">Elderly Care</a></li>
-                                <li><a href="watchman-security-guard-service.php">Watchman/ Security Guard</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/maid-service.php">Maid</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/cook-service.php">Cook</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/driver-service.php">Driver</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/babysitter-nanny-service.php">Babysitter/ Nanny</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/elderly-care-service.php">Elderly Care</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>services/watchman-security-guard-service.php">Watchman/ Security Guard</a></li>
                             </ul>
                         </div>
                     </div>
@@ -85,9 +85,9 @@
                             <h4 class="tp-footer-widget-title mb-35">Important Links</h4>
                             <div class="tp-footer-news tp-footer-news-three">
                                <ul>
-                                <li><a href="about.php">About us</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/about.php">About us</a></li>
                                 <li><a href="https://maiditeasy.co.in/review/">Testimonials</a></li>
-                                <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
+                                <li><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php">Terms & Conditions</a></li>
                             </ul>
                             </div>
                         </div>
@@ -116,13 +116,13 @@
         </div>
     </footer>
 
-    <script src="assets/js/vendor/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/swiper-bundle.js"></script>
-    <script src="assets/js/venobox.min.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/vendor/jquery.min.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/swiper-bundle.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/venobox.min.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/jquery.meanmenu.min.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/ajax-form.js"></script>
+    <script src="<?php echo $root_prefix; ?>assets/js/main.js"></script>
   </body>
 </html>

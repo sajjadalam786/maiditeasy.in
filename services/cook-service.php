@@ -1,10 +1,10 @@
 <?php
-$page_title = "Book Driver Service | Maid It Easy";
-$page_description = "Book strictly vetted, professional drivers for your car. Safe and reliable driver services with Maid It Easy.";
-$canonical_url = "https://maiditeasy.in/driver-service.php";
+$page_title = "Book Cook Service | Maid It Easy";
+$page_description = "Book strictly vetted, professional cooks with Maid It Easy. Healthy and delicious food prepared at your home.";
+$canonical_url = "https://maiditeasy.in/services/cook-service.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -12,7 +12,7 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="col-xl-9 col-lg-8">
                         <div class="tp-service-details">
-                            <h1 class="mb-40">Book Driver Service</h1>
+                            <h1 class="mb-40">Book Cook Service</h1>
                             <div style="width:100%;min-height:800px;" data-fillout-id="khDNSS1gEZus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
                             <script src="https://server.fillout.com/embed/v1/"></script>
                         </div>      
@@ -22,5 +22,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

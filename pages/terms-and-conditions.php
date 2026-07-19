@@ -1,8 +1,8 @@
 <?php
 $page_title = "Terms & Conditions | Maid It Easy";
 $page_description = "Read the terms and conditions for using Maid It Easy services. Learn about our payment terms, refund policy, and replacement policy.";
-$canonical_url = "https://maiditeasy.in/terms-and-conditions.php";
-include 'includes/header.php';
+$canonical_url = "https://maiditeasy.in/pages/terms-and-conditions.php";
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -199,5 +199,5 @@ maid is the client's duty, and Maiditeasy.in is not liable for it.  <br><br>
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

@@ -1,8 +1,8 @@
 <?php
 $page_title = "About Maid It Easy | India's Best Domestic Help Aggregator";
 $page_description = "Learn about Maid It Easy, your dependable source for home assistance services in India. We provide verified maids, cooks, babysitters, and elderly care.";
-$canonical_url = "https://maiditeasy.in/about.php";
-include 'includes/header.php';
+$canonical_url = "https://maiditeasy.in/pages/about.php";
+include '../includes/header.php';
 ?>
     <main>
         <!-- Gap Fixed: Single unified section for all text content -->
@@ -10,7 +10,7 @@ include 'includes/header.php';
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-8 col-md-10">
-                        <img src="assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" class="img-fluid mb-40" alt="Maid It Easy - About Our Domestic Help Services">
+                        <img src="../assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" class="img-fluid mb-40" alt="Maid It Easy - About Our Domestic Help Services">
                     </div>
                     <div class="col-xl-6 col-md-10">
                         <div class="tp-about-text tp-about-inner-page-text z-index">
@@ -40,7 +40,7 @@ include 'includes/header.php';
                                 <div class="col-sm-6">
                                     <div class="tp-about-author mb-30">
                                         <div class="tp-about-author-img">
-                                            <img src="assets/img/about/about-author.png" loading="lazy" class="img-fluid" alt="Team MIE - Founder & CEO">
+                                            <img src="../assets/img/about/about-author.png" loading="lazy" class="img-fluid" alt="Team MIE - Founder & CEO">
                                         </div>
                                         <div class="tp-about-author-text">
                                             <h4 class="tp-about-author-text-title heading-color-black">Team MIE</h4>
@@ -57,5 +57,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

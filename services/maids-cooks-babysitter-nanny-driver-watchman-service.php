@@ -1,10 +1,10 @@
 <?php
 $page_title = "Hire Best Maids, Cooks, Babysitters, and Drivers | Maid It Easy";
 $page_description = "Hire best maids, cooks, babysitters, and drivers with Maid It Easy. Background verified home assistants.";
-$canonical_url = "https://maiditeasy.in/maids-cooks-babysitter-nanny-driver-watchman-service.php";
+$canonical_url = "https://maiditeasy.in/services/maids-cooks-babysitter-nanny-driver-watchman-service.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -27,5 +27,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

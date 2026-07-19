@@ -1,10 +1,10 @@
 <?php
 $page_title = "Book Elderly Care Service | Maid It Easy";
 $page_description = "Book experienced and caring elderly care assistants with Maid It Easy. Compassionate support and medical updates.";
-$canonical_url = "https://maiditeasy.in/elderly-care-service.php";
+$canonical_url = "https://maiditeasy.in/services/elderly-care-service.php";
 $additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
     <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -22,5 +22,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>

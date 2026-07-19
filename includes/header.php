@@ -1,4 +1,11 @@
 <?php
+// Calculate the relative path prefix to the root directory dynamically based on current script location
+$root_prefix = '';
+$request_uri = $_SERVER['PHP_SELF'];
+if (strpos($request_uri, '/pages/') !== false || strpos($request_uri, '/services/') !== false || strpos($request_uri, '/Policies/') !== false) {
+    $root_prefix = '../';
+}
+
 // Initialize dynamic SEO variables if not set
 if (!isset($page_title)) {
     $page_title = "Maid It Easy | Best & Number One Maid Agency in India";
@@ -103,18 +110,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
       }
       </script>
 
-      <link rel="manifest" href="site.webmanifest" />
-      <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png" />
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="assets/css/custom-animation.css" />
-      <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-      <link rel="stylesheet" href="assets/css/meanmenu.css" />
-      <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-      <link rel="stylesheet" href="assets/css/flaticon.css" />
-      <link rel="stylesheet" href="assets/css/venobox.min.css" />
-      <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
-      <link rel="stylesheet" href="assets/css/default.css" />
-      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="manifest" href="<?php echo $root_prefix; ?>site.webmanifest" />
+      <link rel="shortcut icon" type="image/x-icon" href="<?php echo $root_prefix; ?>assets/favicon.png" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/custom-animation.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/fontawesome.min.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/meanmenu.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/magnific-popup.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/flaticon.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/venobox.min.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/swiper-bundle.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/default.css" />
+      <link rel="stylesheet" href="<?php echo $root_prefix; ?>assets/css/main.css" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -271,7 +278,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <a href="https://api.whatsapp.com/send?phone=919187496103&text=Hello.%20I%20want%20to%20book%20a%20service!" class="float" target="_blank">
         <i class="fab fa-whatsapp"></i>
       </a>
-      <a href="tel:9866769832" style="position:fixed;width:60px;height:60px;bottom:50px;right:10px;background-color:#007bff;color:#FFF;border-radius:50px;text-align:center;font-size:28px;box-shadow:2px 2px 3px #999;z-index:100;display:flex;align-items:center;justify-content:center;text-decoration:none;" aria-label="Call Us"><img src="assets/img/call.png" style="width:30px;height:30px;filter:brightness(0) invert(1);"></a>
+      <a href="tel:9866769832" style="position:fixed;width:60px;height:60px;bottom:50px;right:10px;background-color:#007bff;color:#FFF;border-radius:50px;text-align:center;font-size:28px;box-shadow:2px 2px 3px #999;z-index:100;display:flex;align-items:center;justify-content:center;text-decoration:none;" aria-label="Call Us"><img src="<?php echo $root_prefix; ?>assets/img/call.png" style="width:30px;height:30px;filter:brightness(0) invert(1);"></a>
       
       <header>
       <div class="tp-header-area-three header-sticky">
@@ -279,18 +286,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
                   <div class="row justify-content-xl-center align-items-center">
                       <div class="col-xxl-2 col-xl-3 col-8">
                           <div class="tp-header-logo-three">
-                              <a href="index.php"><img src="assets/img/logo/logo-blue.png" width="180" height="55" class="img-fluid" alt="Maid It Easy Logo"></a>
+                              <a href="<?php echo $root_prefix; ?>index.php"><img src="<?php echo $root_prefix; ?>assets/img/logo/logo-blue.png" width="180" height="55" class="img-fluid" alt="Maid It Easy Logo"></a>
                           </div>
                       </div>
                       <div class="col-xxl-6 col-xl-6 col-4">
                           <div class="tp-main-menu tp-main-menu-three">
                               <nav id="tp-mobile-menu">
                                   <ul>
-                                      <li class="menu-item-has-children"><a href="index.php" class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>">Home</a></li>
-                                      <li class="menu-item-has-children"><a href="about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
-                                      <li class="menu-item-has-children"><a href="terms-and-conditions.php" class="<?php echo ($current_page == 'terms-and-conditions.php') ? 'active' : ''; ?>">Terms & Conditions</a></li>
-                                      <li class="menu-item-has-children"><a href="privacy-policy.php" class="<?php echo ($current_page == 'privacy-policy.php') ? 'active' : ''; ?>">Privacy Policy</a></li>
-                                      <li><a href="contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>index.php" class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>">Home</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php" class="<?php echo ($current_page == 'terms-and-conditions.php') ? 'active' : ''; ?>">Terms & Conditions</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/privacy-policy.php" class="<?php echo ($current_page == 'privacy-policy.php') ? 'active' : ''; ?>">Privacy Policy</a></li>
+                                      <li><a href="<?php echo $root_prefix; ?>pages/contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
                                   </ul>
                               </nav>
                           </div>
@@ -301,10 +308,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                       <div class="col-xxl-4 col-xl-3 d-none d-xl-block">
                           <div class="tp-header-right-three">
                               <div class="tp-header-number-three">
-                                  <span><img src="assets/img/call.png" width="20px" height="20px" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
+                                  <span><img src="<?php echo $root_prefix; ?>assets/img/call.png" width="20px" height="20px" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
                               </div>
                               <div class="tp-header-btn-three">
-                                  <a href="all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+                                  <a href="<?php echo $root_prefix; ?>services/all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
                               </div>
                           </div>
                       </div>
@@ -333,7 +340,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </div>
               </div>   
               <div class="tp-header-btn-three">
-                  <a href="all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+                  <a href="<?php echo $root_prefix; ?>services/all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
               </div>
             </div>
           </div>

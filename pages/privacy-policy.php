@@ -1,7 +1,7 @@
 <?php
 $page_title = "Privacy Policy | Maid It Easy";
 $page_description = "Read our privacy policy to understand how we collect, use, and protect your personal information at Maid It Easy.";
-$canonical_url = "https://maiditeasy.in/privacy-policy.php";
+$canonical_url = "https://maiditeasy.in/pages/privacy-policy.php";
 $additional_styles = '
       /* Enforce uniform font size for all text except headings */
       .tp-service-details p,
@@ -29,7 +29,7 @@ $additional_styles = '
       }
       .button4 {border-radius: 8px;}
 ';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
     <main>
         <section class="tp-service-details-area pt-120 pb-90">
@@ -87,7 +87,7 @@ include 'includes/header.php';
                             <h3 style="font-size: 20px;">6.2. Opt-out:</h3><br>
                             <p class="mb-40">You can choose to opt-out of receiving promotional communications from us at any time by following the unsubscribe instructions provided in our emails or by contacting us directly.</p><br>
                     
-                            <h2 class="tp-service-details-subtitle" style="font-size: 24px;">7. CHILDREN\'S PRIVACY:</h2>
+                            <h2 class="tp-service-details-subtitle" style="font-size: 24px;">7. CHILDREN'S PRIVACY:</h2>
                           
                             <p class="mb-40">Our website and services are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us to have it removed.</p><br>
                             
@@ -113,7 +113,7 @@ include 'includes/header.php';
                                     <h5 style="margin:0; font-weight:bold; color:#1e3a8a;">Privacy Policy Document</h5>
                                     <span onclick="document.getElementById('pdfModal').style.display='none'" style="font-size:28px; font-weight:bold; cursor:pointer; line-height:1; color:#333;" title="Close">&times;</span>
                                 </div>
-                                <iframe src="privacy-policy.pdf" style="width:100%; height:100%; border:none; flex-grow:1;"></iframe>
+                                <iframe src="../Policies/privacy-policy.pdf" style="width:100%; height:100%; border:none; flex-grow:1;"></iframe>
                             </div>
                         </div>
                     </div>
@@ -122,5 +122,5 @@ include 'includes/header.php';
         </section>
     </main>
 <?php
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>
