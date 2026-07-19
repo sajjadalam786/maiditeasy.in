@@ -124,5 +124,18 @@
     <script src="<?php echo $root_prefix; ?>assets/js/jquery.magnific-popup.min.js"></script>
     <script src="<?php echo $root_prefix; ?>assets/js/ajax-form.js"></script>
     <script src="<?php echo $root_prefix; ?>assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".book-now-trigger").on("click", function(e){
+            e.preventDefault();
+            $("#bookingModal").css("display", "flex");
+        });
+        $(".close-booking-modal, #bookingModal").on("click", function(e){
+            if (e.target === this || $(this).hasClass("close-booking-modal")) {
+                $("#bookingModal").css("display", "none");
+            }
+        });
+    });
+    </script>
   </body>
 </html>

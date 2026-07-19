@@ -127,6 +127,37 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
       <style>
+      /* Pill Active State Styling and Spacing Adjustments */
+      .tp-main-menu ul li {
+          margin-right: 10px !important;
+      }
+       .tp-main-menu ul li a:not(.yellow-btn) {
+          position: relative !important;
+          transition: all 0.3s ease-in-out !important;
+          padding: 6px 12px !important;
+          border-radius: 20px !important;
+          font-size: 14px !important;
+      }
+      .tp-main-menu ul li a.active:not(.yellow-btn),
+      .tp-main-menu ul li a:hover:not(.yellow-btn) {
+          background-color: #fff9e6 !important;
+          color: #ff890c !important;
+      }
+      .tp-main-menu ul li a.yellow-btn {
+          padding: 13px 25px !important;
+          border-radius: 5px !important;
+          font-size: 14px !important;
+          font-weight: 700 !important;
+          line-height: 1.2 !important;
+          display: inline-flex !important;
+          align-items: center !important;
+          gap: 6px !important;
+          height: auto !important;
+      }
+      .tp-main-menu ul li a::after {
+          display: none !important;
+      }
+
       .float {
           position:fixed;
           width:60px;
@@ -294,10 +325,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
                               <nav id="tp-mobile-menu">
                                   <ul>
                                       <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>index.php" class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>">Home</a></li>
-                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
-                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php" class="<?php echo ($current_page == 'terms-and-conditions.php') ? 'active' : ''; ?>">Terms & Conditions</a></li>
-                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/privacy-policy.php" class="<?php echo ($current_page == 'privacy-policy.php') ? 'active' : ''; ?>">Privacy Policy</a></li>
-                                      <li><a href="<?php echo $root_prefix; ?>pages/contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>services/maids-cooks-babysitter-nanny-driver-watchman-service.php" class="<?php echo ($current_page == 'maids-cooks-babysitter-nanny-driver-watchman-service.php') ? 'active' : ''; ?>">Services</a></li>
+                                      
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/blogs.php" class="<?php echo ($current_page == 'blogs.php') ? 'active' : ''; ?>">Blogs</a></li>
+                                      <li><a href="<?php echo $root_prefix; ?>pages/contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact Us</a></li>
+                                      <li class="menu-item-has-children"><a href="<?php echo $root_prefix; ?>pages/career.php" class="<?php echo ($current_page == 'career.php') ? 'active' : ''; ?>">Career</a></li>
+                                      <li class="menu-item-has-children" style="margin-left: 5px;"><a href="tel:9866769832" class="yellow-btn" style="color: #0e0035 !important; font-weight: bold; border-radius: 6px !important; padding: 8px 15px !important; font-size: 13px !important; display: inline-flex; align-items: center; gap: 5px; height: auto; line-height: 1.2;"><i class="fas fa-phone-alt"></i> +91 98667 69832</a></li>
                                   </ul>
                               </nav>
                           </div>
@@ -311,7 +344,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                   <span><img src="<?php echo $root_prefix; ?>assets/img/call.png" width="20px" height="20px" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
                               </div>
                               <div class="tp-header-btn-three">
-                                  <a href="<?php echo $root_prefix; ?>services/all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+                                  <a href="javascript:void(0);" class="yellow-btn book-now-trigger"><i class="flaticon-enter"></i> BOOK NOW</a>
                               </div>
                           </div>
                       </div>
@@ -340,10 +373,93 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 </div>
               </div>   
               <div class="tp-header-btn-three">
-                  <a href="<?php echo $root_prefix; ?>services/all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+                  <a href="javascript:void(0);" class="yellow-btn book-now-trigger"><i class="flaticon-enter"></i> BOOK NOW</a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="offcanvas-overlay"></div>
+
+      <!-- Global Custom Booking Modal -->
+      <div id="bookingModal" style="display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5); align-items: center; justify-content: center; backdrop-filter: blur(4px);">
+          <div style="background-color: #fff; border-radius: 12px; width: 90%; max-width: 500px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); position: relative; max-height: 90vh; overflow-y: auto; margin: auto;">
+              <span class="close-booking-modal" style="position: absolute; right: 20px; top: 15px; font-size: 28px; font-weight: bold; cursor: pointer; color: #333;">&times;</span>
+              <h3 style="font-size: 22px; font-weight: bold; color: #0e0035; margin-bottom: 20px;">Book Your Helper</h3>
+              
+              <form action="<?php echo $root_prefix; ?>submit-booking.php" method="POST">
+                  <div style="background-color: #fff9e6; color: #856404; padding: 12px 15px; border-radius: 6px; margin-bottom: 20px; font-weight: bold; border: 1px solid #ffeeba; font-size: 13px; text-align: center; line-height: 1.4;">
+                      Instant Maids Requirement Not Available - Only Long Terms
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Full Name *</label>
+                      <input type="text" name="name" class="form-control" placeholder="Enter your full name" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-md-6 form-group mb-3">
+                          <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Phone Number *</label>
+                          <input type="tel" name="phone" class="form-control" placeholder="Enter phone number" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                      </div>
+                      <div class="col-md-6 form-group mb-3">
+                          <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Alternate Number *</label>
+                          <input type="tel" name="alternate_phone" class="form-control" placeholder="Enter alternate number" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                      </div>
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Email Address *</label>
+                      <input type="email" name="email" class="form-control" placeholder="Enter your email" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Choose Interested Service *</label>
+                      <select name="service" class="form-control" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px; background-color: #fff;">
+                          <option value="">-- Select Service --</option>
+                          <option value="Maid Service">Maid Service</option>
+                          <option value="Cook Service">Cook Service</option>
+                          <option value="Babysitter & Nanny Service">Babysitter & Nanny Service</option>
+                          <option value="Elderly Care Service">Elderly Care Service</option>
+                          <option value="Driver Service">Driver Service</option>
+                          <option value="Watchman & Security Guard Service">Watchman & Security Guard Service</option>
+                          <option value="All-in-One Service">All-in-One Domestic Help Service</option>
+                      </select>
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Urgency of your requirement *</label>
+                      <select name="urgency" class="form-control" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px; background-color: #fff;">
+                          <option value="Urgent">Urgent</option>
+                          <option value="Not Urgent">Not Urgent</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">How did you hear about us?</label>
+                      <input type="text" name="referrer" class="form-control" placeholder="Google, Friends, Social Media, etc." style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                  </div>
+                  
+                  <div class="form-group mb-3">
+                      <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Comment or Remark</label>
+                      <textarea name="message" class="form-control" rows="3" placeholder="Any specific requirements..." style="border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;"></textarea>
+                  </div>
+                  
+                  <div class="form-group mb-3" style="display: flex; align-items: flex-start; gap: 8px;">
+                      <input type="checkbox" name="premium_agreement" id="premiumAgreementCheckModal" required style="margin-top: 4px;">
+                      <label for="premiumAgreementCheckModal" style="font-size: 11px; color: #555; line-height: 1.4; margin-bottom: 0; cursor: pointer;">
+                          I understand that I have to pay a premium to Maid It Easy for providing domestic aid services with a free replacement guarantee. *
+                      </label>
+                  </div>
+                  
+                  <div class="form-group mb-4" style="display: flex; align-items: flex-start; gap: 8px;">
+                      <input type="checkbox" name="terms_agreement" id="termsAgreementCheckModal" required style="margin-top: 4px;">
+                      <label for="termsAgreementCheckModal" style="font-size: 11px; color: #555; line-height: 1.4; margin-bottom: 0; cursor: pointer;">
+                          Accepting <a href="<?php echo $root_prefix; ?>pages/terms-and-conditions.php" target="_blank" style="color: #ff890c; text-decoration: underline;">Terms & Conditions</a> *
+                      </label>
+                  </div>
+                  
+                  <button type="submit" class="btn" style="width: 100%; height: 45px; background-image: linear-gradient(to right, #ffd10c 0%, #ff890c 51%, #ffd10c 100%); background-size: 200% auto; border: none; border-radius: 6px; color: #0e0035; font-weight: bold; font-size: 14px; transition: 0.5s;">SUBMIT BOOKING</button>
+              </form>
+          </div>
+      </div>

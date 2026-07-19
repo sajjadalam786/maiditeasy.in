@@ -2,8 +2,6 @@
 $page_title = "Contact Us | Maid It Easy";
 $page_description = "Get in touch with Maid It Easy. Fill out our contact form or reach out via WhatsApp to hire verified maids, cooks, and babysitters. We serve Hyderabad, Pune, Mumbai, and more.";
 $canonical_url = "https://maiditeasy.in/pages/contact.php";
-$additional_head = '<!-- Preconnect to Fillout servers to speed up form loading -->
-    <link rel="preconnect" href="https://server.fillout.com" crossorigin>';
 include '../includes/header.php';
 ?>
     <main>
@@ -82,9 +80,81 @@ include '../includes/header.php';
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="tp-contact-form">
-                            <div style="width:100%;height:500px;" data-fillout-id="ccXH3SDMAbus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
-                            <script src="https://server.fillout.com/embed/v1/"></script>
+                        <div class="tp-contact-form" style="background-color: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #eee;">
+                            <form action="../submit-booking.php" method="POST">
+                                <div style="background-color: #fff9e6; color: #856404; padding: 12px 15px; border-radius: 6px; margin-bottom: 20px; font-weight: bold; border: 1px solid #ffeeba; font-size: 14px; text-align: center;">
+                                    Instant Maids Requirement Not Available - Only Long Terms
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Full Name *</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Enter your full name" required style="height: 45px; border-radius: 6px; font-size: 14px;">
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6 form-group mb-3">
+                                        <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Phone Number *</label>
+                                        <input type="tel" name="phone" class="form-control" placeholder="Enter phone number" required style="height: 45px; border-radius: 6px; font-size: 14px;">
+                                    </div>
+                                    <div class="col-md-6 form-group mb-3">
+                                        <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Alternate Number *</label>
+                                        <input type="tel" name="alternate_phone" class="form-control" placeholder="Enter alternate number" required style="height: 45px; border-radius: 6px; font-size: 14px;">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Email Address *</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Enter your email" required style="height: 45px; border-radius: 6px; font-size: 14px;">
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Choose Interested Service *</label>
+                                    <select name="service" class="form-control" required style="height: 45px; border-radius: 6px; font-size: 14px; background-color: #fff;">
+                                        <option value="">-- Select Service --</option>
+                                        <option value="Maid Service">Maid Service</option>
+                                        <option value="Cook Service">Cook Service</option>
+                                        <option value="Babysitter & Nanny Service">Babysitter & Nanny Service</option>
+                                        <option value="Elderly Care Service">Elderly Care Service</option>
+                                        <option value="Driver Service">Driver Service</option>
+                                        <option value="Watchman & Security Guard Service">Watchman & Security Guard Service</option>
+                                        <option value="All-in-One Service">All-in-One Domestic Help Service</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Urgency of your requirement *</label>
+                                    <select name="urgency" class="form-control" required style="height: 45px; border-radius: 6px; font-size: 14px; background-color: #fff;">
+                                        <option value="Urgent">Urgent</option>
+                                        <option value="Not Urgent">Not Urgent</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">How did you hear about us?</label>
+                                    <input type="text" name="referrer" class="form-control" placeholder="Google, Friends, Social Media, etc." style="height: 45px; border-radius: 6px; font-size: 14px;">
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Comment or Remark</label>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Any specific requirements..." style="border-radius: 6px; font-size: 14px; padding: 10px;"></textarea>
+                                </div>
+                                
+                                <div class="form-group mb-3" style="display: flex; align-items: flex-start; gap: 8px;">
+                                    <input type="checkbox" name="premium_agreement" id="premiumAgreementCheckContact" required style="margin-top: 4px;">
+                                    <label for="premiumAgreementCheckContact" style="font-size: 12px; color: #555; line-height: 1.4; margin-bottom: 0; cursor: pointer;">
+                                        I understand that I have to pay a premium to Maid It Easy for providing domestic aid services with a free replacement guarantee. *
+                                    </label>
+                                </div>
+                                
+                                <div class="form-group mb-4" style="display: flex; align-items: flex-start; gap: 8px;">
+                                    <input type="checkbox" name="terms_agreement" id="termsAgreementCheckContact" required style="margin-top: 4px;">
+                                    <label for="termsAgreementCheckContact" style="font-size: 12px; color: #555; line-height: 1.4; margin-bottom: 0; cursor: pointer;">
+                                        Accepting <a href="../pages/terms-and-conditions.php" target="_blank" style="color: #ff890c; text-decoration: underline;">Terms & Conditions</a> *
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn" style="width: 100%; height: 50px; background-image: linear-gradient(to right, #ffd10c 0%, #ff890c 51%, #ffd10c 100%); background-size: 200% auto; border: none; border-radius: 6px; color: #0e0035; font-weight: bold; font-size: 16px; transition: 0.5s;">SUBMIT BOOKING</button>
+                            </form>
                         </div>
                     </div>
                 </div>
