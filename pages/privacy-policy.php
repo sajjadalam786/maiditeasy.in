@@ -77,8 +77,11 @@ include '../includes/header.php';
                             <p class="mb-40">We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, please be aware that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p><br>
                             
                             <h2 class="tp-service-details-subtitle" style="font-size: 24px;">5. COOKIES & TRACKING TECHNOLOGIES:</h2>
-                          
-                            <p class="mb-40">Our website may use cookies and other tracking technologies to enhance your browsing experience and collect information about how you use the site. You can modify your browser settings to manage cookies or receive notifications when cookies are being sent.</p><br>
+                           
+                             <p class="mb-20">Our website may use cookies and other tracking technologies to enhance your browsing experience and collect information about how you use the site. You can modify your browser settings to manage cookies or receive notifications when cookies are being sent.</p><br>
+                             
+                             <h3 style="font-size: 20px;">5.1. Google Analytics & Third-Party Advertising:</h3><br>
+                             <p class="mb-40">We partner with third-party networks, including Google Analytics, Google Ads, GTM, and Microsoft Clarity, to analyze website traffic and serve personalized ads. These tools use tracking technologies (including the DoubleClick cookie) to deliver tailored advertisements based on your prior visits to our site. You can manage or opt-out of Google's custom advertising preferences by visiting the Google Ad Settings page.</p><br>
                             
                             <h2 class="tp-service-details-subtitle" style="font-size: 24px;">6. YOUR CHOICES:</h2>
                             <h3 style="font-size: 20px;">6.1. Access and Correction:</h3><br>

@@ -99,7 +99,7 @@ the Customer in a case where the Customer finalizes the Helper but decides to en
 scheduled visit of the Helper.<br><br>
 f) No Refund whatsoever shall be given by Maid It Easy for its 
 Services after the scheduled visit of the Helper
-at the premise of the Customer.<br><br>
+at the premises of the Customer. </p>
 g) All refund requests must be submitted in writing to Maid It Easy on 
 the company's email address.<br><br>
 h) No refund will be issued in the case where the number of the maid has been shared with the Customer.<br><br>
@@ -166,7 +166,7 @@ must pay the previous maid's wage obligations in the event that you want
 to fire the maid or the maid quits her employment and you want to hire a
 replacement. We won't send a replacement in the event that the previous
 maid's salary is not paid.<br><br>
-d) Process of Hiring : The process of hiring a helper through Maid It Easy is quite convenient and you pay the service charges only after you see the recent photo(s) of the Helper, their documents and after a detailed interview with them on a voice call. Kindly note that the date of joining of the Helper or the time commited might vary for the first few days due to reasons like transport, weather or any medical emergencies.</p>
+d) Process of Hiring : The process of hiring a helper through Maid It Easy is quite convenient and you pay the service charges only after you see the recent photo(s) of the Helper, their documents and after a detailed interview with them on a voice call. Kindly note that the date of joining of the Helper or the time committed might vary for the first few days due to reasons like transport, weather or any medical emergencies.</p>
                         
                             
                              <h3 class="tp-service-details-subtitle mb-20">7. Miscellaneous </h3>
@@ -177,8 +177,8 @@ etc.) during the working relationship or even after the contract has ended.
 If a dispute arises over the behaviour of a worker hired through
 www.maiditeasy.in, it is expected that you would address it amicably or
 that you will resort to legal action.<br><br>
-b) The invoice shall only be shared once the client acknowledges the agreement and the maid reaches the premise of the client. <br><br>
-c) When a worker quits owing to unfair labour practises, mistreatment, or a
+b) The invoice shall only be shared once the client acknowledges the agreement and the maid reaches the premises of the client. <br><br>
+c) When a worker quits owing to unfair labour practices, mistreatment, or a
 breach of an agreement made with the employee or worker, the contract is
 null and void.<br><br>
 d) Once your candidate is finalized, the choice to initiate a police verification for the candidate is at the will and responsibility of the customer. The company does not do a police verification.<br><br>
