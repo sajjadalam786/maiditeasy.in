@@ -103,12 +103,12 @@
                 </div>
             </div>
         </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
+        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-8 pb-8">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="tp-copyright tp-copyright-two text-center">
-                            <p class="m-0">Website Developed by&nbsp;<a href="https://maiditeasy.co.in/"><span>Antmark.in</span></a></p>
+                            <p class="m-0" style="font-size: 11px;">Website Developed by&nbsp;<a href="https://wholesalehouse2016.in/wh-marketing-agency" target="_blank"><span>Sajjad Alam</span></a>&nbsp;|&nbsp;<a href="https://www.instagram.com/professor_business_expert/" target="_blank"><i class="fab fa-instagram"></i>&nbsp;<span>professor_business_expert</span></a></p>
                         </div>
                     </div>
                 </div>
