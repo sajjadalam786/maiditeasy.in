@@ -1,0 +1,342 @@
+<?php
+// Initialize dynamic SEO variables if not set
+if (!isset($page_title)) {
+    $page_title = "Maid It Easy | Best & Number One Maid Agency in India";
+}
+if (!isset($page_description)) {
+    $page_description = "Book trusted and verified maids, cooks, drivers, babysitters, and elderly care services with Maid It Easy. Professional, reliable, and hassle-free domestic help.";
+}
+if (!isset($canonical_url)) {
+    $canonical_url = "https://maiditeasy.in" . $_SERVER['REQUEST_URI'];
+}
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-THVRCQS5');</script>
+      <!-- End Google Tag Manager -->
+
+      <!-- Google tag (gtag.js) - Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVM7MFBVX0"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CVM7MFBVX0');
+      </script>
+
+      <!-- Google tag (gtag.js) - Tag 1 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10827514627"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10827514627');
+      </script>
+      
+      <!-- Google tag (gtag.js) - AW-10937809978 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10937809978"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-10937809978');
+    </script>
+
+      <!-- Google tag (gtag.js) - Tag 2 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=GT-WP4T5FMD"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'GT-WP4T5FMD');
+      </script>
+
+      <!-- Microsoft Clarity -->
+      <script type="text/javascript">
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "wzpg6bhgfq");
+      </script>
+      <!-- End Microsoft Clarity -->
+
+      <!-- Technical SEO: Meta Tags & Canonical URLs -->
+      <meta charset="utf-8" /> 
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <title><?php echo htmlspecialchars($page_title); ?></title>
+      <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <link class="canonical-link" rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
+
+      <?php if (isset($additional_head)) { echo $additional_head; } ?>
+
+      <!-- Technical SEO: Schema Markup -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Maid It Easy",
+        "image": "https://maiditeasy.in/assets/img/logo/logo-blue.png",
+        "url": "https://maiditeasy.in/",
+        "telephone": "+91 9866769832",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2ND FLOOR, PLOT NO 2, SECTOR 1 SY NO 64, Huda Techno Enclave, Madhapur",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "postalCode": "500081",
+          "addressCountry": "IN"
+        },
+        "description": "Book trusted and verified maids, cooks, drivers, babysitters, and elderly care services with Maid It Easy."
+      }
+      </script>
+
+      <link rel="manifest" href="site.webmanifest" />
+      <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png" />
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/custom-animation.css" />
+      <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+      <link rel="stylesheet" href="assets/css/meanmenu.css" />
+      <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+      <link rel="stylesheet" href="assets/css/flaticon.css" />
+      <link rel="stylesheet" href="assets/css/venobox.min.css" />
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+      <link rel="stylesheet" href="assets/css/default.css" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+      <style>
+      .float {
+          position:fixed;
+          width:60px;
+          height:60px;
+          bottom:120px;
+          right:10px;
+          background-color:#25d366;
+          color:#FFF;
+          border-radius:50px;
+          text-align:center;
+          font-size:35px; /* Larger icon */
+          box-shadow: 2px 2px 3px #999;
+          z-index:100;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          text-decoration: none;
+      }
+      .float:hover { color: #FFF; }
+      .float i {
+          margin: 0 !important;
+          padding: 0 !important;
+          line-height: 1 !important;
+      }
+      
+      /* NEAT GRID LAYOUT FOR EXACTLY IDENTICAL BUTTON SIZES & BIGGER TEXT */
+      .hero-btn-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr); /* 3 Equal Columns */
+          grid-auto-rows: 1fr; /* Forces all rows to be exactly the same height */
+          gap: 12px; /* Uniform spacing */
+          max-width: 520px; /* Prevents overlapping the image on desktop */
+          margin-top: 20px;
+      }
+      .hero-btn-grid .btn {
+          margin: 0; 
+          padding: 10px 5px;
+          text-align: center;
+          border-radius: 8px;
+          color: white;
+          background-image: linear-gradient(to right, #ffd10c 0%, #ff890c 51%, #ffd10c 100%);
+          background-size: 200% auto;
+          font-size: 16px; /* BIGGER TEXT */
+          font-weight: 600; /* BOLDER TEXT for better visibility */
+          transition: 0.5s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1.3;
+          width: 100%;
+          height: 100%; /* Stretches the button vertically to fill the forced row height */
+          min-height: 70px; /* Taller baseline height to fit larger text cleanly */
+      }
+      .hero-btn-grid .btn:hover {
+          background-position: right center;
+          color: #0e0035; 
+      }
+      
+      /* STRICT MOBILE RESPONSIVENESS - GUARANTEED TO FIT */
+      @media (max-width: 767px) {
+          .hero-btn-grid {
+              grid-template-columns: repeat(2, 1fr); /* Stacks into 2 columns on mobile/tablets */
+              max-width: 100%; /* Allows it to use the full phone width safely */
+              gap: 10px;
+          }
+          .hero-btn-grid .btn {
+              font-size: 14px; /* Scales down slightly to prevent words from breaking out of boxes */
+              min-height: 60px;
+              padding: 8px 4px;
+          }
+      }
+      
+      @media (max-width: 400px) {
+          .hero-btn-grid {
+              gap: 8px; /* Tighter gaps for very small phone screens */
+          }
+          .hero-btn-grid .btn {
+              font-size: 12px; /* Extra safety for very narrow devices like iPhone SE */
+              min-height: 55px;
+          }
+      }
+
+      /* Base button styling for Marquee */
+      .btn-2 {
+          background-image: linear-gradient(to right, #0e0035 0%, #270f6a 51%, #0e0035 100%);
+          padding: 15px;
+          margin: 10px;
+          border-radius: 10px;
+          color: white;
+          transition: 0.5s;
+          background-size: 200% auto;
+      }
+      .btn-2:hover {
+          background-position: right center;
+      }
+
+      /* Bulletproof Centering for CTA Icons */
+      .tp-contact-cta-inner-icon {
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+      }
+      .tp-contact-cta-inner-icon a,
+      .tp-contact-cta-inner-icon i,
+      .tp-contact-cta-inner-icon .fab.fa-whatsapp,
+      .tp-contact-cta-inner-icon .flaticon-email-1 {
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          position: static !important;
+          top: auto !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          line-height: 1 !important;
+          width: 100%;
+          height: 100%;
+      }
+      
+      /* Footer Social Icons */
+      .tp-footer-info-social-three a {
+          display: inline-flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          text-decoration: none;
+      }
+      .tp-footer-info-social-three .fab {
+          position: static !important;
+          top: auto !important;
+          margin: 0 !important;
+          line-height: 1 !important;
+      }
+
+      /* Fixed Height for Service Tiles ensuring Watchman tile matches others */
+      .tp-services-text-title {
+          min-height: 55px;
+          display: flex;
+          align-items: center;
+      }
+      </style>
+      <?php if (isset($additional_styles)) { echo '<style>' . $additional_styles . '</style>'; } ?>
+  </head>
+
+  <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THVRCQS5"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      
+      <a href="https://api.whatsapp.com/send?phone=919187496103&text=Hello.%20I%20want%20to%20book%20a%20service!" class="float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="tel:9866769832" style="position:fixed;width:60px;height:60px;bottom:50px;right:10px;background-color:#007bff;color:#FFF;border-radius:50px;text-align:center;font-size:28px;box-shadow:2px 2px 3px #999;z-index:100;display:flex;align-items:center;justify-content:center;text-decoration:none;" aria-label="Call Us"><img src="assets/img/call.png" style="width:30px;height:30px;filter:brightness(0) invert(1);"></a>
+      
+      <header>
+      <div class="tp-header-area-three header-sticky">
+              <div class="tp-custom-container">
+                  <div class="row justify-content-xl-center align-items-center">
+                      <div class="col-xxl-2 col-xl-3 col-8">
+                          <div class="tp-header-logo-three">
+                              <a href="index.php"><img src="assets/img/logo/logo-blue.png" width="180" height="55" class="img-fluid" alt="Maid It Easy Logo"></a>
+                          </div>
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-4">
+                          <div class="tp-main-menu tp-main-menu-three">
+                              <nav id="tp-mobile-menu">
+                                  <ul>
+                                      <li class="menu-item-has-children"><a href="index.php" class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>">Home</a></li>
+                                      <li class="menu-item-has-children"><a href="about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
+                                      <li class="menu-item-has-children"><a href="terms-and-conditions.php" class="<?php echo ($current_page == 'terms-and-conditions.php') ? 'active' : ''; ?>">Terms & Conditions</a></li>
+                                      <li class="menu-item-has-children"><a href="privacy-policy.php" class="<?php echo ($current_page == 'privacy-policy.php') ? 'active' : ''; ?>">Privacy Policy</a></li>
+                                      <li><a href="contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
+                                  </ul>
+                              </nav>
+                          </div>
+                          <div class="side-menu-icon d-xl-none text-end">
+                              <button class="side-toggle"><i class="far fa-bars"></i></button>
+                          </div>
+                      </div>
+                      <div class="col-xxl-4 col-xl-3 d-none d-xl-block">
+                          <div class="tp-header-right-three">
+                              <div class="tp-header-number-three">
+                                  <span><img src="assets/img/call.png" width="20px" height="20px" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
+                              </div>
+                              <div class="tp-header-btn-three">
+                                  <a href="all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+      <div class="fix">
+        <div class="side-info">
+          <button class="side-info-close"><i class="fal fa-times"></i></button>
+          <div class="side-info-content">
+            <div class="tp-mobile-menu"></div>
+            <div class="contact-infos mb-30">
+              <div class="contact-list mb-30">
+                <h4>Contact Info</h4>
+                <ul>
+                  <li><i class="flaticon-email"></i><a href="mailto:maiditeasy21@gmail.com">maiditeasy21@gmail.com</a></li>
+                  <li><i class="flaticon-phone-call"></i><a href="tel:9866769832">+91 98667 69832</a></li>
+                </ul>
+                <div class="sidebar__menu--social">
+                    <a href="https://www.facebook.com/Maid-It-Easy-102856618723539"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/maid-it-easy/about/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/maidit_easy/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/919187496103"><i class="fab fa-whatsapp"></i></a>
+                </div>
+              </div>   
+              <div class="tp-header-btn-three">
+                  <a href="all-in-one-maid-services-cooking-services-take-care.php" class="yellow-btn"><i class="flaticon-enter"></i> BOOK NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offcanvas-overlay"></div>
