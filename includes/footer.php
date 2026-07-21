@@ -126,33 +126,7 @@
                     ⚠️ Fill form to continue browsing.
                 </div>
             </div>
-            <form id="leadPopupForm" action="<?php echo $root_prefix; ?>submit-booking.php" method="POST">
-                <div style="margin-bottom: 15px;">
-                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Full Name *</label>
-                    <input type="text" name="name" required placeholder="Enter your name" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
-                </div>
-                <div style="margin-bottom: 15px;">
-                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Mobile Number *</label>
-                    <input type="tel" name="phone" required placeholder="Enter your 10-digit number" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
-                </div>
-                <div style="margin-bottom: 15px;">
-                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Email Address *</label>
-                    <input type="email" name="email" required placeholder="Enter your email" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
-                </div>
-                <div style="margin-bottom: 20px;">
-                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Service Required *</label>
-                    <select name="service" required style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; background:#fff;">
-                        <option value="" disabled selected>Select a Service</option>
-                        <option value="Maid">Maid</option>
-                        <option value="Cook">Cook</option>
-                        <option value="Driver">Driver</option>
-                        <option value="Babysitter/Nanny">Babysitter/ Nanny</option>
-                        <option value="Elderly Care">Elderly Care</option>
-                        <option value="Watchman/Security Guard">Watchman/ Security Guard</option>
-                    </select>
-                </div>
-                <button type="submit" style="width:100%; background:#ff890c; color:#fff; border:none; padding:12px; border-radius:8px; font-size:15px; font-weight:bold; cursor:pointer; transition:0.3s;">Submit Details</button>
-            </form>
+            <?php include __DIR__ . '/short-form.php'; ?>
         </div>
     </div>
     <style>
@@ -210,7 +184,7 @@
             }
         });
 
-        $("#leadPopupForm").on("submit", function(){
+        $(document).on("submit", ".lead-short-form", function(){
             sessionStorage.setItem("popupFilled", "true");
         });
     });

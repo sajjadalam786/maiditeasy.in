@@ -63,6 +63,36 @@ include 'includes/header.php';
           </marquee>
         </div>
 
+        <!-- First Placement: Hero bottom inline inquiry form -->
+        <section class="tp-inquiry-inline-one pt-60 pb-60" style="background: #fff;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-12 mb-30">
+                        <span style="font-size: 13px; font-weight: 800; color: #ff890c; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 8px;">Premium Domestic Helper Agency</span>
+                        <h2 style="font-size: 32px; font-weight: 800; color: #0e0035; margin-bottom: 20px; line-height: 1.2;">Get Verified Domestic Helpers Sent Direct to Your Home</h2>
+                        <p style="font-size: 15px; color: #555; line-height: 1.6; margin-bottom: 20px;">Select your service, input your contact details, and our local team will contact you to match you with background-screened maids, cooks, caretakers, and drivers.</p>
+                        <p style="font-size: 14px; color: #666; line-height: 1.6; margin-bottom: 25px;">Whether you need full-time housemaids, experienced home cooks, professional newborn nannies, or personal chauffeurs, we connect you with reliable domestic solutions in Hyderabad, Bangalore, Mumbai, Pune, Chennai, Ahmedabad, and Surat.</p>
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                            <div style="flex: 1 1 200px;">
+                                <h4 style="color: #ff890c; font-size: 24px; font-weight: bold; margin: 0;">10,000+</h4>
+                                <span style="font-size: 13px; color: #666;">Verified Helpers Onboarded</span>
+                            </div>
+                            <div style="flex: 1 1 200px;">
+                                <h4 style="color: #ff890c; font-size: 24px; font-weight: bold; margin: 0;">Active</h4>
+                                <span style="font-size: 13px; color: #666;">Background Screening Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <?php 
+                        $root_prefix = ''; 
+                        include 'includes/short-form.php'; 
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="tp-services-area theme-dark-bg">
           <div class="tp-custom-container">
             <div class="tp-services-bg grey-bg pt-120 pb-90 z-index">
@@ -307,6 +337,31 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Second Placement: Bottom Page inline inquiry form -->
+        <section class="tp-inquiry-inline-two pt-60 pb-60" style="background: #f8f9fa; border-top: 1px solid #eee;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-12 order-lg-1 order-2">
+                        <?php 
+                        $root_prefix = ''; 
+                        include 'includes/short-form.php'; 
+                        ?>
+                    </div>
+                    <div class="col-lg-7 col-12 order-lg-2 order-1 mb-30" style="padding-left: 30px;">
+                        <h2 style="font-size: 32px; font-weight: 800; color: #0e0035; margin-bottom: 20px; line-height: 1.2;">Don't Wait! Get Your Custom Pricing Quote Now</h2>
+                        <p style="font-size: 15px; color: #555; line-height: 1.6; margin-bottom: 20px;">Get matched with vetted professionals within 48 hours. Our replacement policies safeguard your home routines against sudden absences.</p>
+                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+                            <li style="font-size: 14px; color: #333; font-weight: bold; display: flex; align-items: center; gap: 10px;"><i class="fas fa-check-circle" style="color: #ff890c;"></i> Free Standby Replacement Support</li>
+                            <li style="font-size: 14px; color: #333; font-weight: bold; display: flex; align-items: center; gap: 10px;"><i class="fas fa-check-circle" style="color: #ff890c;"></i> Transparent Pricing & Contract Terms</li>
+                            <li style="font-size: 14px; color: #333; font-weight: bold; display: flex; align-items: center; gap: 10px;"><i class="fas fa-check-circle" style="color: #ff890c;"></i> Verified Work References & ID Proofs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <?php include 'includes/faq-section.php'; ?>
       </main>
 <?php

@@ -80,7 +80,7 @@ if ($script_name == 'maid-service.php') {
         <div class="form-group mb-3" style="display: flex; align-items: flex-start; gap: 8px;">
             <input type="checkbox" name="premium_agreement" id="premiumAgreementCheckEmbed" required style="margin-top: 4px;">
             <label for="premiumAgreementCheckEmbed" style="font-size: 12px; color: #555; line-height: 1.4; margin-bottom: 0; cursor: pointer;">
-                I understand that I have to pay a premium to Maid It Easy for providing domestic aid services with a free replacement guarantee. *
+                I understand that I have to pay a premium to Maid It Easy for providing domestic aid services with replacement support. *
             </label>
         </div>
         

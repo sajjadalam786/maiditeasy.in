@@ -26,41 +26,92 @@ include '../includes/header.php';
             </div>
         </div>
 
-        <!-- Gap Fixed: Single unified section for all text content -->
-        <section class="tp-about-area tp-abouts-area position-relative pt-60 pb-60 fix">
+        <!-- Premium About Us Grid Section -->
+        <section class="tp-about-area pt-100 pb-100" style="background: #ffffff;">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-8 col-md-10">
-                        <img src="../assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" class="img-fluid mb-40" alt="Maid It Easy - About Our Domestic Help Services">
-                    </div>
-                    <div class="col-xl-6 col-md-10">
-                        <div class="tp-about-text tp-about-inner-page-text z-index">
+                <div class="row align-items-center">
+                    <!-- Left Column: Core Value Text Content -->
+                    <div class="col-lg-6 col-12 mb-40">
+                        <div class="tp-about-text-wrapper" style="padding-right: 20px;">
                             <div class="section-title-wrapper mb-30">
-                                 <!-- Technical SEO Fix: Changed to <p> to preserve H-tag hierarchy -->
-                                 <p class="tp-section-subtitle common-yellow-shape mb-20 heading-color-black" style="font-size: 18px; font-weight: bold;">About our Company </p>
-                                 
-                                 <!-- Technical SEO Fix: Changed h4 to h1 as this is the main page title -->
-                                <h1 class="tp-section-title heading-color-black" style="font-size: 40px; font-weight: 800; line-height: 1.2;">Our Success<br> in cleaning up <br>your mess!</h1>
+                                <span style="font-size: 14px; font-weight: 800; color: #ff890c; text-transform: uppercase; letter-spacing: 1.5px; display: block; margin-bottom: 10px;">Who We Are</span>
+                                <h1 style="font-size: 38px; font-weight: 800; color: #0e0035; line-height: 1.2; margin-bottom: 20px;">Your Trusted Domestic Helper Agency</h1>
+                                <p style="font-size: 15px; color: #555; line-height: 1.6; margin-bottom: 30px;">At Maid It Easy, we specialize in connecting busy households with qualified, vetted domestic helpers. We manage the entire verification, onboarding, and placement lifecycle, giving you complete peace of mind.</p>
                             </div>
+
+                            <!-- Features Pillars Grid -->
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-sm-6 col-12 mb-25">
+                                    <div style="display: flex; gap: 15px; align-items: flex-start;">
+                                        <div style="background: #fff0df; color: #ff890c; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; font-weight: bold;">
+                                            🛡️
+                                        </div>
+                                        <div>
+                                            <h4 style="font-size: 16px; font-weight: bold; color: #0e0035; margin-bottom: 5px;">Verified Helpers</h4>
+                                            <p style="font-size: 13px; color: #666; margin: 0; line-height: 1.4;">Identity and work records checked thoroughly.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12 mb-25">
+                                    <div style="display: flex; gap: 15px; align-items: flex-start;">
+                                        <div style="background: #fff0df; color: #ff890c; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; font-weight: bold;">
+                                            🔄
+                                        </div>
+                                        <div>
+                                            <h4 style="font-size: 16px; font-weight: bold; color: #0e0035; margin-bottom: 5px;">Free Replacements</h4>
+                                            <p style="font-size: 13px; color: #666; margin: 0; line-height: 1.4;">Continuous standby helper candidates available.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12 mb-25">
+                                    <div style="display: flex; gap: 15px; align-items: flex-start;">
+                                        <div style="background: #fff0df; color: #ff890c; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; font-weight: bold;">
+                                            🎓
+                                        </div>
+                                        <div>
+                                            <h4 style="font-size: 16px; font-weight: bold; color: #0e0035; margin-bottom: 5px;">Highly Skilled</h4>
+                                            <p style="font-size: 13px; color: #666; margin: 0; line-height: 1.4;">Helpers mentored by qualified professionals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-12 mb-25">
+                                    <div style="display: flex; gap: 15px; align-items: flex-start;">
+                                        <div style="background: #fff0df; color: #ff890c; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; font-weight: bold;">
+                                            📞
+                                        </div>
+                                        <div>
+                                            <h4 style="font-size: 16px; font-weight: bold; color: #0e0035; margin-bottom: 5px;">Full Support</h4>
+                                            <p style="font-size: 13px; color: #666; margin: 0; line-height: 1.4;">Customer care guiding you at every transaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Visual Frame and Floating Badge -->
+                    <div class="col-lg-6 col-12">
+                        <div class="tp-about-image-frame" style="position: relative; width: 100%; max-width: 500px; margin: 0 auto;">
+                            <!-- Accent background decoration -->
+                            <div style="position: absolute; width: 100%; height: 100%; border: 4px solid #ff890c; border-radius: 20px; right: -15px; bottom: -15px; z-index: 1;"></div>
                             
-                            <p class="mb-20">Welcome to Maid It Easy, your dependable source for home assistance services. We are aware of the pressures of modern life and the necessity for dependable aid with household management. We specialise in offering top-tier domestic assistance workers who are knowledgeable, dependable, and committed to attending to your unique needs.</p>
+                            <!-- Main Team Image -->
+                            <img src="../assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" class="img-fluid" alt="Maid It Easy - Professional Helper Team" style="border-radius: 20px; position: relative; z-index: 2; box-shadow: 0 15px 35px rgba(0,0,0,0.15); width: 100%; object-fit: cover;">
                             
-                            <p class="mb-20">We at Maid It Easy provide a wide variety of services to make your life simpler. Our team of qualified specialists is ready to help you out with any domestic support needs you may have, including housekeeping, cooking, babysitting, elder care, and other domestic tasks. We make sure that our employees are knowledgeable, competent, and motivated to provide outstanding service with an unequalled replacement facility by putting them through a rigorous recruitment process and complete background checks.</p>
-                            
-                            <p class="mb-20">Finding the ideal domestic assistance specialist for your needs will be easier thanks to our user-friendly website. Discover the qualifications, experiences, and areas of expertise of our broad group of outstanding people. To learn more about the calibre of the services we offer, read some of our clients' reviews.</p>
-                            
-                            <p class="mb-20">We put your comfort first and work to match you with a domestic helper that fits your preferences and schedule. You can simply schedule services, manage appointments, and send secure online payments thanks to our user-friendly booking system. We respect your right to privacy and provide a guarantee of the privacy of your personal data.</p>
-                            
-                            <p class="mb-20">At Maid It Easy, we are committed to offering outstanding support as well as dependable help. Throughout the process, our helpful and accommodating team is there to address any queries or worries you may have. Our top goal is making sure you are satisfied.</p>
-                            
-                            <p class="mb-20">Learn how having a trustworthy and knowledgeable domestic aid specialist by your side may give you peace of mind. While you concentrate on what really matters, let us manage the home chores. Experience how Maid It Easy stands out thanks to its convenience, effectiveness, and professionalism.</p>
-                            
-                            <p class="mb-40">To explore your domestic assistance needs and start your journey to a well-run and peaceful home, get in touch with us right away.</p>
+                            <!-- Floating Trust Badge -->
+                            <div style="position: absolute; bottom: 25px; left: -25px; background: #0e0035; color: #fff; padding: 15px 20px; border-radius: 12px; z-index: 3; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;">
+                                <div style="font-size: 24px;">⭐</div>
+                                <div>
+                                    <h5 style="font-size: 16px; font-weight: 800; color: #fff; margin: 0;">10,000+</h5>
+                                    <p style="font-size: 11px; color: #ccc; margin: 0; font-weight: 500;">Families Served</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <?php include '../includes/faq-section.php'; ?>
     </main>
 <?php
