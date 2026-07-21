@@ -1,12 +1,12 @@
 <?php
 /*
   GOOGLE SHEETS INTEGRATION GUIDE:
-  1. Open your Google Sheet.
+  1. Open your Google Sheet: https://docs.google.com/spreadsheets/d/1c1LYiTW0yvioMTV1nt2I_xE_GfN1a2PNAtwsqRt0PKE/edit
   2. Click Extensions > Apps Script.
   3. Delete any default code and paste this script:
 
      function doPost(e) {
-       var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+       var sheet = SpreadsheetApp.openById("1c1LYiTW0yvioMTV1nt2I_xE_GfN1a2PNAtwsqRt0PKE").getActiveSheet();
        var rowData = [];
        rowData.push(new Date()); // Timestamp
        rowData.push(e.parameter.name);
@@ -23,6 +23,11 @@
   4. Click Deploy > New Deployment.
   5. Select type "Web App". Set "Execute as" to "Me", and "Who has access" to "Anyone".
   6. Deploy, copy the Web App URL, and paste it into GOOGLE_SHEET_WEBHOOK_URL in .env!
+  
+  * HOW TO BYPASS GOOGLE AUTH WARNING:
+    - Click the "Advanced" link in the bottom left of the Google popup.
+    - Click "Go to Untitled project (unsafe)" (or your script name) at the bottom.
+    - Click "Allow" on the next screen to authorize!
 */
 
 function get_env_var($key, $default = '') {
