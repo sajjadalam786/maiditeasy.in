@@ -8,6 +8,7 @@ $additional_styles = "
 .mobile-image-slider::-webkit-scrollbar-thumb { background-color: #ffd10c; border-radius: 10px; }
 .mobile-image-slider .slider-wrapper { display: flex; gap: 15px; }
 .mobile-image-slider .slider-item { flex: 0 0 80%; scroll-snap-align: start; border-radius: 8px; overflow: hidden; background: #eaeaea; height: 180px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 14px; font-weight: bold; }
+.mobile-image-slider .slider-item img { width: 100%; height: 100%; object-fit: cover; }
 @media (min-width: 768px) { .mobile-image-slider .slider-item { flex: 0 0 23%; } }
 ";
 include '../includes/header.php';
@@ -41,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <span>Image 1: North Indian Cook</span>
+                            <img src="../assets/img/service/Cook%2001.jpg" alt="Home Meal Prep Cook">
                         </div>
                         <div class="slider-item">
-                            <span>Image 2: South Indian Kitchen Cook</span>
+                            <img src="../assets/img/service/cook%2002.jpeg" alt="South Indian Cook">
                         </div>
                         <div class="slider-item">
-                            <span>Image 3: Brahmin Cook & Pure Vegetarian Meals</span>
+                            <img src="../assets/img/service/cook%2003.jpeg" alt="Brahmin Pure Veg Cook">
                         </div>
                         <div class="slider-item">
-                            <span>Image 4: Multi-cuisine Chef for Home</span>
+                            <img src="../assets/img/service/cook%2004.jpeg" alt="Multi-cuisine Chef">
                         </div>
                     </div>
                 </div>

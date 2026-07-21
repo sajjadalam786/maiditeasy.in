@@ -8,6 +8,7 @@ $additional_styles = "
 .mobile-image-slider::-webkit-scrollbar-thumb { background-color: #ffd10c; border-radius: 10px; }
 .mobile-image-slider .slider-wrapper { display: flex; gap: 15px; }
 .mobile-image-slider .slider-item { flex: 0 0 80%; scroll-snap-align: start; border-radius: 8px; overflow: hidden; background: #eaeaea; height: 180px; display: flex; align-items: center; justify-content: center; color: #666; font-size: 14px; font-weight: bold; }
+.mobile-image-slider .slider-item img { width: 100%; height: 100%; object-fit: cover; }
 @media (min-width: 768px) { .mobile-image-slider .slider-item { flex: 0 0 23%; } }
 ";
 include '../includes/header.php';
@@ -41,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <span>Image 1: Senior Companion Care</span>
+                            <img src="../assets/img/service/elderly%20care%2001.jpg" alt="Senior Companion Care">
                         </div>
                         <div class="slider-item">
-                            <span>Image 2: Medical Reminders Assistant</span>
+                            <img src="../assets/img/service/elderly%20care%2002.jpeg" alt="Medical Reminders Assistant">
                         </div>
                         <div class="slider-item">
-                            <span>Image 3: Daily Mobility Helper</span>
+                            <img src="../assets/img/service/elderly%20care%2003.jpeg" alt="Daily Mobility Helper">
                         </div>
                         <div class="slider-item">
-                            <span>Image 4: Post-Hospitalization Caretaker</span>
+                            <img src="../assets/img/service/elderly%20care%2004.jpeg" alt="Post-Hospitalization Caretaker">
                         </div>
                     </div>
                 </div>
