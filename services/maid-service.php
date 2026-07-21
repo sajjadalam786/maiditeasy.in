@@ -42,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <img src="../assets/img/service/Maid%2001.jpg" alt="House Cleaning Service">
+                            <img src="../assets/img/service/Maid-01.jpg" alt="House Cleaning Service" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/maid%2002.jpg" alt="Kitchen Helper Maid">
+                            <img src="../assets/img/service/maid-02.jpg" alt="Kitchen Helper Maid" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Maid%2003.jpg" alt="Ironing & Washing Helper">
+                            <img src="../assets/img/service/Maid-03.jpg" alt="Ironing & Washing Helper" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/maid%2004.jpg" alt="Professional Housemaid">
+                            <img src="../assets/img/service/maid-04.jpg" alt="Professional Housemaid" width="300" height="180" loading="lazy">
                         </div>
                     </div>
                 </div>

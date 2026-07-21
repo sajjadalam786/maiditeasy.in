@@ -372,7 +372,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <a href="https://api.whatsapp.com/send?phone=919187496103&text=Hello.%20I%20want%20to%20book%20a%20service!" class="float" target="_blank">
         <i class="fab fa-whatsapp"></i>
       </a>
-      <a href="tel:9866769832" style="position:fixed;width:60px;height:60px;bottom:50px;right:10px;background-color:#007bff;color:#FFF;border-radius:50px;text-align:center;font-size:28px;box-shadow:2px 2px 3px #999;z-index:100;display:flex;align-items:center;justify-content:center;text-decoration:none;" aria-label="Call Us"><img src="<?php echo $root_prefix; ?>assets/img/call.png" style="width:30px;height:30px;filter:brightness(0) invert(1);"></a>
+      <a href="tel:9866769832" style="position:fixed;width:60px;height:60px;bottom:50px;right:10px;background-color:#007bff;color:#FFF;border-radius:50px;text-align:center;font-size:28px;box-shadow:2px 2px 3px #999;z-index:100;display:flex;align-items:center;justify-content:center;text-decoration:none;" aria-label="Call Us"><img src="<?php echo $root_prefix; ?>assets/img/call.png" width="30" height="30" style="width:30px;height:30px;filter:brightness(0) invert(1);" alt="Call Icon"></a>
       
       <header>
       <div class="tp-header-area-three header-sticky">
@@ -404,7 +404,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                       <div class="col-xxl-4 col-xl-3 d-none d-xl-block">
                           <div class="tp-header-right-three">
                               <div class="tp-header-number-three">
-                                  <span><img src="<?php echo $root_prefix; ?>assets/img/call.png" width="20px" height="20px" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
+                                  <span><img src="<?php echo $root_prefix; ?>assets/img/call.png" width="20" height="20" alt="Call Icon">&nbsp;<a href="tel:9866769832">+91 98667 69832</a></span>
                               </div>
                               <div class="tp-header-btn-three">
                                   <a href="javascript:void(0);" class="yellow-btn book-now-trigger"><i class="flaticon-enter"></i> BOOK NOW</a>

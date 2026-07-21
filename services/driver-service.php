@@ -42,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <img src="../assets/img/service/Driver%2001.jpeg" alt="Sedan & Hatchback Driver">
+                            <img src="../assets/img/service/Driver-01.jpeg" alt="Sedan & Hatchback Driver" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Driver%2002.jpeg" alt="Luxury SUV Driver">
+                            <img src="../assets/img/service/Driver-02.jpeg" alt="Luxury SUV Driver" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Driver%2003.jpeg" alt="Outstation Driver">
+                            <img src="../assets/img/service/Driver-03.jpeg" alt="Outstation Driver" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Driver%2004.jpeg" alt="Personal Chauffeur">
+                            <img src="../assets/img/service/Driver-04.jpeg" alt="Personal Chauffeur" width="300" height="180" loading="lazy">
                         </div>
                     </div>
                 </div>

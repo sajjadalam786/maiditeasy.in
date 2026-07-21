@@ -42,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <img src="../assets/img/service/elderly%20care%2001.jpg" alt="Senior Companion Care">
+                            <img src="../assets/img/service/elderly-care-01.jpg" alt="Senior Companion Care" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/elderly%20care%2002.jpeg" alt="Medical Reminders Assistant">
+                            <img src="../assets/img/service/elderly-care-02.jpeg" alt="Medical Reminders Assistant" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/elderly%20care%2003.jpeg" alt="Daily Mobility Helper">
+                            <img src="../assets/img/service/elderly-care-03.jpeg" alt="Daily Mobility Helper" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/elderly%20care%2004.jpeg" alt="Post-Hospitalization Caretaker">
+                            <img src="../assets/img/service/elderly-care-04.jpeg" alt="Post-Hospitalization Caretaker" width="300" height="180" loading="lazy">
                         </div>
                     </div>
                 </div>

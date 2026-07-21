@@ -42,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <img src="../assets/img/service/Maid%2001.jpg" alt="Domestic Cleaning Helper">
+                            <img src="../assets/img/service/Maid-01.jpg" alt="Domestic Cleaning Helper" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Cook%2001.jpg" alt="Gourmet Kitchen Cook">
+                            <img src="../assets/img/service/Cook-01.jpg" alt="Gourmet Kitchen Cook" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/Nanny%2001.jpg" alt="Childcare Nanny Specialist">
+                            <img src="../assets/img/service/Nanny-01.jpg" alt="Childcare Nanny Specialist" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/watchman%2002.jpeg" alt="Gate Watchman Security Guard">
+                            <img src="../assets/img/service/watchman-02.jpeg" alt="Gate Watchman Security Guard" width="300" height="180" loading="lazy">
                         </div>
                     </div>
                 </div>

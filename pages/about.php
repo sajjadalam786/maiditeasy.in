@@ -96,7 +96,7 @@ include '../includes/header.php';
                             <div style="position: absolute; width: 100%; height: 100%; border: 4px solid #ff890c; border-radius: 20px; right: -15px; bottom: -15px; z-index: 1;"></div>
                             
                             <!-- Main Team Image -->
-                            <img src="../assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" class="img-fluid" alt="Maid It Easy - Professional Helper Team" style="border-radius: 20px; position: relative; z-index: 2; box-shadow: 0 15px 35px rgba(0,0,0,0.15); width: 100%; object-fit: cover;">
+                            <img src="../assets/img/about/about-img-2.png" fetchpriority="high" loading="eager" width="500" height="450" class="img-fluid" alt="Maid It Easy - Professional Helper Team" style="border-radius: 20px; position: relative; z-index: 2; box-shadow: 0 15px 35px rgba(0,0,0,0.15); width: 100%; object-fit: cover;">
                             
                             <!-- Floating Trust Badge -->
                             <div style="position: absolute; bottom: 25px; left: -25px; background: #0e0035; color: #fff; padding: 15px 20px; border-radius: 12px; z-index: 3; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;">

@@ -10,7 +10,7 @@ include 'includes/header.php';
             <div class="swiper-wrapper">
               <div class="tp-single-slider tp-slider-height d-flex align-items-center swiper-slide" data-swiper-autoplay="5000">
                 <div class="slider-img">
-                  <img src="assets/img/slider/services-banner.jpg" class="img-fluid" alt="Maid It Easy - Domestic Help Services"/>
+                  <img src="assets/img/slider/services-banner.jpg" class="img-fluid" alt="Maid It Easy - Domestic Help Services" width="1920" height="600" fetchpriority="high" loading="eager"/>
                 </div>
                 <div class="container">
                   <div class="row">
@@ -162,7 +162,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/elderly-care-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                        <i> <img src="assets/old-man.png" alt="Elderly Care Icon"> </i>
+                        <i> <img src="assets/old-man.png" alt="Elderly Care Icon" width="24" height="24"> </i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -180,7 +180,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/driver-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                     <i> <img src="assets/person.png" alt="Driver Icon"></i>
+                     <i> <img src="assets/person.png" alt="Driver Icon" width="24" height="24"></i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -198,7 +198,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/watchman-security-guard-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                     <i> <img src="assets/person.png" alt="Security Guard Icon"></i>
+                     <i> <img src="assets/person.png" alt="Security Guard Icon" width="24" height="24"></i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -232,7 +232,7 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-sm-6">
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
-                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Search Feature">
+                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Search Feature" width="80" height="80" loading="lazy">
                                 <i class="flaticon-booking"></i>
                             </div>
                             <div class="tp-feature-three-text">
@@ -244,7 +244,7 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-sm-6">
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
-                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Shortlist Feature">
+                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Shortlist Feature" width="80" height="80" loading="lazy">
                                 <i class="flaticon-delivery-box"></i>
                             </div>
                             <div class="tp-feature-three-text">
@@ -257,7 +257,7 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-sm-6">
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
-                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Selection Feature">
+                                <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Selection Feature" width="80" height="80" loading="lazy">
                                 <i class="flaticon-cleaning"></i>
                             </div>
                             <div class="tp-feature-three-text">
@@ -272,7 +272,7 @@ include 'includes/header.php';
         
         <section class="tp-choose-area-three position-relative mt-120 pb-50">
             <div class="tp-choose-area-three-img">
-                <img src="assets/img/about/about-img-5.png" alt="Why Choose Maid It Easy Services">
+                <img src="assets/img/about/about-img-5.png" alt="Why Choose Maid It Easy Services" width="600" height="500" loading="lazy">
             </div>
             <div class="container">
                 <div class="row align-items-end justify-content-center">

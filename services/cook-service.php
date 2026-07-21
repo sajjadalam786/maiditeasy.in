@@ -42,16 +42,16 @@ include '../includes/header.php';
                 <div class="mobile-image-slider">
                     <div class="slider-wrapper">
                         <div class="slider-item">
-                            <img src="../assets/img/service/Cook%2001.jpg" alt="Home Meal Prep Cook">
+                            <img src="../assets/img/service/Cook-01.jpg" alt="Home Meal Prep Cook" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/cook%2002.jpeg" alt="South Indian Cook">
+                            <img src="../assets/img/service/cook-02.jpeg" alt="South Indian Cook" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/cook%2003.jpeg" alt="Brahmin Pure Veg Cook">
+                            <img src="../assets/img/service/cook-03.jpeg" alt="Brahmin Pure Veg Cook" width="300" height="180" loading="lazy">
                         </div>
                         <div class="slider-item">
-                            <img src="../assets/img/service/cook%2004.jpeg" alt="Multi-cuisine Chef">
+                            <img src="../assets/img/service/cook-04.jpeg" alt="Multi-cuisine Chef" width="300" height="180" loading="lazy">
                         </div>
                     </div>
                 </div>
