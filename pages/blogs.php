@@ -204,6 +204,7 @@ include '../includes/header.php';
                 </div>
             </div>
         </section>
+        <?php include '../includes/faq-section.php'; ?>
     </main>
 <?php
 include '../includes/footer.php';

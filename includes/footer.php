@@ -194,8 +194,13 @@
             }
         }
         
-        // Initial trigger after 10s
-        setTimeout(triggerLeadPopup, 10000);
+        // Trigger immediately on first visit of session, otherwise 10s delay
+        if (!sessionStorage.getItem("popupTriggered")) {
+            sessionStorage.setItem("popupTriggered", "true");
+            triggerLeadPopup();
+        } else {
+            setTimeout(triggerLeadPopup, 10000);
+        }
 
         $(".close-lead-popup, #leadPopupModal").on("click", function(e){
             if (e.target === this || $(this).hasClass("close-lead-popup")) {

@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     // 1. Send Email Notification
-    $recipient = get_env_var('RECIPIENT_EMAIL', 'mdsalim400@gmail.com');
+    $recipient = get_env_var('RECIPIENT_EMAIL');
     $subject = "New Job Application: $role - $name";
     
     $email_content = "Name: $name\n";
