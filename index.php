@@ -10,7 +10,7 @@ include 'includes/header.php';
             <div class="swiper-wrapper">
               <div class="tp-single-slider tp-slider-height d-flex align-items-center swiper-slide" data-swiper-autoplay="5000">
                 <div class="slider-img">
-                  <img src="assets/img/slider/slider-img-1.jpg" class="img-fluid" alt="Maid It Easy - Domestic Help Services"/>
+                  <img src="assets/img/slider/services-banner.jpg" class="img-fluid" alt="Maid It Easy - Domestic Help Services"/>
                 </div>
                 <div class="container">
                   <div class="row">
@@ -254,52 +254,51 @@ include 'includes/header.php';
                                 <h2 class="tp-section-title-two color-theme-blue">Why choose us?</h2>
                             </div>
                             <div class="row mb-10">
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Quick & Easy</a></h3>
-                                     <p>Directly shortlist with the help of your requirement, call & schedule a meeting with the maid.</p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Quick & Easy</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">Shortlist based on your criteria, call, and schedule instantly.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Safe & Verified</a></h3>
-                                       <p>Our client’s safety is our priority. All the maids undergo a background check before the onboarding.</p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Safe & Verified</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">All domestic helpers undergo strict background and document verification.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Multiple Options</a></h3>
-                                            <p>You can go through endless profiles on our portal & select the one that suits best to your needs & requirements.</p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Multiple Options</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">Explore numerous verified profiles to find the perfect helper match.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Highly Skilled</a></h3>
-                                          <p>The maids are trained by a highly qualified mentoring team.</p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Highly Skilled</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">Our helpers are professionally trained by an expert mentoring team.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Free Replacement</a></h3>
-                                            <p>If the maid leaves with the proposed tenure, we will replace the maid.<br>
-NO QUESTIONS ASKED. </p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Free Replacement</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">If the helper leaves within the contract tenure, we replace them immediately.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="tp-about-service mb-55">
+                                <div class="col-sm-6 col-6">
+                                    <div class="tp-about-service mb-30" style="min-height: 140px;">
                                         <div class="tp-about-service-text">
-                                            <h3 class="tp-about-service-text-title mb-15"><a href="#">Premium Service</a></h3>
-                                            <p>The quality of our service in unmatchable. You won’t regret<br> choosing us.</p>
+                                            <h3 class="tp-about-service-text-title mb-10" style="font-size: 15px;"><a href="#">Premium Service</a></h3>
+                                            <p style="font-size: 12px; line-height: 1.4;">Enjoy unmatched hospitality and reliable customer support services.</p>
                                         </div>
                                     </div>
                                 </div>

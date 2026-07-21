@@ -117,6 +117,50 @@
                 </div>
             </div>
         </div>
+    <div id="leadPopupModal" style="display:none; position:fixed; z-index:999999; left:0; top:0; width:100%; height:100%; background-color:rgba(14,0,53,0.6); justify-content:center; align-items:center; backdrop-filter:blur(6px); padding:20px;">
+        <div style="background:#fff; width:100%; max-width:400px; border-radius:16px; padding:30px; box-shadow:0 10px 30px rgba(0,0,0,0.15); position:relative; animation:tpSlideUp 0.4s ease-out;">
+            <span class="close-lead-popup" style="position:absolute; right:20px; top:15px; font-size:28px; font-weight:bold; cursor:pointer; color:#999; line-height:1;" title="Close">&times;</span>
+            <div class="text-center mb-25" style="text-align: center; margin-bottom: 25px;">
+                <h3 style="font-size:22px; font-weight:800; color:#0e0035; margin-bottom:5px;">Quick Inquiry</h3>
+                <div style="background: #fff8eb; border: 1px solid #ffd899; color: #b26a00; font-size: 13px; font-weight: bold; padding: 10px 15px; border-radius: 8px; margin-top: 10px; margin-bottom: 10px; line-height: 1.4;">
+                    ⚠️ Fill form to continue browsing.
+                </div>
+            </div>
+            <form id="leadPopupForm" action="<?php echo $root_prefix; ?>submit-booking.php" method="POST">
+                <div style="margin-bottom: 15px;">
+                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Full Name *</label>
+                    <input type="text" name="name" required placeholder="Enter your name" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Mobile Number *</label>
+                    <input type="tel" name="phone" required placeholder="Enter your 10-digit number" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Email Address *</label>
+                    <input type="email" name="email" required placeholder="Enter your email" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Service Required *</label>
+                    <select name="service" required style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; background:#fff;">
+                        <option value="" disabled selected>Select a Service</option>
+                        <option value="Maid">Maid</option>
+                        <option value="Cook">Cook</option>
+                        <option value="Driver">Driver</option>
+                        <option value="Babysitter/Nanny">Babysitter/ Nanny</option>
+                        <option value="Elderly Care">Elderly Care</option>
+                        <option value="Watchman/Security Guard">Watchman/ Security Guard</option>
+                    </select>
+                </div>
+                <button type="submit" style="width:100%; background:#ff890c; color:#fff; border:none; padding:12px; border-radius:8px; font-size:15px; font-weight:bold; cursor:pointer; transition:0.3s;">Submit Details</button>
+            </form>
+        </div>
+    </div>
+    <style>
+    @keyframes tpSlideUp {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+    </style>
     </footer>
 
     <script src="<?php echo $root_prefix; ?>assets/js/vendor/jquery.min.js"></script>
@@ -137,6 +181,27 @@
             if (e.target === this || $(this).hasClass("close-booking-modal")) {
                 $("#bookingModal").css("display", "none");
             }
+        });
+        
+        function triggerLeadPopup() {
+            if (!sessionStorage.getItem("popupFilled")) {
+                $("#leadPopupModal").css("display", "flex");
+            }
+        }
+        
+        // Initial trigger after 10s
+        setTimeout(triggerLeadPopup, 10000);
+
+        $(".close-lead-popup, #leadPopupModal").on("click", function(e){
+            if (e.target === this || $(this).hasClass("close-lead-popup")) {
+                $("#leadPopupModal").css("display", "none");
+                // User closed without filling. Trigger again after 10s to prompt them.
+                setTimeout(triggerLeadPopup, 10000);
+            }
+        });
+
+        $("#leadPopupForm").on("submit", function(){
+            sessionStorage.setItem("popupFilled", "true");
         });
     });
     </script>
