@@ -5,6 +5,27 @@ $canonical_url = "https://maiditeasy.in/pages/about.php";
 include '../includes/header.php';
 ?>
     <main>
+        <!-- Banner Image Section -->
+        <div class="tp-page-title-area pt-180 pb-185 position-relative fix" data-background="../assets/img/slider/services-banner.jpg" role="img" aria-label="About us page banner">
+            <div class="tp-custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tp-page-title z-index">
+                            <h2 class="breadcrumb-title">About Us</h2>
+                            <div class="breadcrumb-menu">
+                                <nav class="breadcrumb-trail breadcrumbs">
+                                    <ul class="trail-items">
+                                        <li class="trail-item trail-begin"><a href="../index.php">Home</a></li>
+                                        <li class="trail-item trail-end"><span>About Us</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Gap Fixed: Single unified section for all text content -->
         <section class="tp-about-area tp-abouts-area position-relative pt-60 pb-60 fix">
             <div class="container">
@@ -35,21 +56,6 @@ include '../includes/header.php';
                             <p class="mb-20">Learn how having a trustworthy and knowledgeable domestic aid specialist by your side may give you peace of mind. While you concentrate on what really matters, let us manage the home chores. Experience how Maid It Easy stands out thanks to its convenience, effectiveness, and professionalism.</p>
                             
                             <p class="mb-40">To explore your domestic assistance needs and start your journey to a well-run and peaceful home, get in touch with us right away.</p>
-                            
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="tp-about-author mb-30">
-                                        <div class="tp-about-author-img">
-                                            <img src="../assets/img/about/about-author.png" loading="lazy" class="img-fluid" alt="Team MIE - Founder & CEO">
-                                        </div>
-                                        <div class="tp-about-author-text">
-                                            <h4 class="tp-about-author-text-title heading-color-black">Team MIE</h4>
-                                            <span class="heading-color-black">Founder & CEO</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>

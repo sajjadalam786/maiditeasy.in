@@ -340,6 +340,25 @@ $current_page = basename($_SERVER['PHP_SELF']);
           display: flex;
           align-items: center;
       }
+
+      /* Banner Overlay to improve text contrast */
+      .tp-page-title-area {
+          position: relative;
+      }
+      .tp-page-title-area::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(255, 255, 255, 0.7) !important;
+          z-index: 1;
+      }
+      .tp-page-title-area .tp-custom-container {
+          position: relative;
+          z-index: 2;
+      }
       </style>
       <?php if (isset($additional_styles)) { echo '<style>' . $additional_styles . '</style>'; } ?>
   </head>

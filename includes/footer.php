@@ -182,6 +182,11 @@
                 $("#bookingModal").css("display", "none");
             }
         });
+
+        $(".quick-inquiry-trigger").on("click", function(e){
+            e.preventDefault();
+            $("#leadPopupModal").css("display", "flex");
+        });
         
         function triggerLeadPopup() {
             if (!sessionStorage.getItem("popupFilled")) {
