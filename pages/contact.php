@@ -108,18 +108,8 @@ include '../includes/header.php';
                                 </div>
                                 
                                 <div class="form-group mb-3">
-                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">Select City *</label>
-                                    <select name="city" class="form-control" required style="height: 45px; border-radius: 6px; font-size: 14px; background-color: #fff;">
-                                        <option value="">-- Select City --</option>
-                                        <option value="Hyderabad">Hyderabad</option>
-                                        <option value="Bangalore">Bangalore</option>
-                                        <option value="Mumbai">Mumbai</option>
-                                        <option value="Pune">Pune</option>
-                                        <option value="Chennai">Chennai</option>
-                                        <option value="Delhi NCR">Delhi NCR</option>
-                                        <option value="Ahmedabad">Ahmedabad</option>
-                                        <option value="Other">Other</option>
-                                    </select>
+                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px;">City *</label>
+                                    <input type="text" name="city" class="form-control" placeholder="Enter your city" required style="height: 45px; border-radius: 6px; font-size: 14px;">
                                 </div>
                                 
                                 <div class="form-group mb-3">

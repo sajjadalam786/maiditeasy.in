@@ -46,18 +46,8 @@ if ($script_name == 'maid-service.php') {
         </div>
         
         <div class="form-group mb-3">
-            <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px; display: block;">Select City *</label>
-            <select name="city" class="form-control" required style="height: 45px; border-radius: 6px; font-size: 14px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px; background-color: #fff;">
-                <option value="">-- Select City --</option>
-                <option value="Hyderabad">Hyderabad</option>
-                <option value="Bangalore">Bangalore</option>
-                <option value="Mumbai">Mumbai</option>
-                <option value="Pune">Pune</option>
-                <option value="Chennai">Chennai</option>
-                <option value="Delhi NCR">Delhi NCR</option>
-                <option value="Ahmedabad">Ahmedabad</option>
-                <option value="Other">Other</option>
-            </select>
+            <label style="font-weight: 600; margin-bottom: 5px; font-size: 14px; display: block;">City *</label>
+            <input type="text" name="city" class="form-control" placeholder="Enter your city" required style="height: 45px; border-radius: 6px; font-size: 14px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
         </div>
         
         <div class="form-group mb-3">

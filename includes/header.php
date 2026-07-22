@@ -415,10 +415,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <div class="offcanvas-overlay"></div>
 
       <!-- Global Custom Booking Modal -->
-      <div id="bookingModal" style="display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5); align-items: center; justify-content: center; backdrop-filter: blur(4px);">
-          <div style="background-color: #fff; border-radius: 12px; width: 90%; max-width: 500px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); position: relative; max-height: 90vh; overflow-y: auto; margin: auto;">
-              <span class="close-booking-modal" style="position: absolute; right: 20px; top: 15px; font-size: 28px; font-weight: bold; cursor: pointer; color: #333;">&times;</span>
-              <h3 style="font-size: 22px; font-weight: bold; color: #0e0035; margin-bottom: 20px;">Book Your Helper</h3>
+      <div id="bookingModal" style="display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5); align-items: center; justify-content: center; backdrop-filter: blur(4px); padding: 10px;">
+          <div style="background-color: #fff; border-radius: 12px; width: 95%; max-width: 480px; padding: 18px 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); position: relative; max-height: 90vh; overflow-y: auto; margin: auto;">
+              <span class="close-booking-modal" style="position: absolute; right: 15px; top: 12px; font-size: 24px; font-weight: bold; cursor: pointer; color: #333; line-height: 1;">&times;</span>
+              <h3 style="font-size: 18px; font-weight: bold; color: #0e0035; margin-bottom: 12px; text-align: center;">Book Your Helper</h3>
               <?php include __DIR__ . '/booking-form.php'; ?>
           </div>
       </div>

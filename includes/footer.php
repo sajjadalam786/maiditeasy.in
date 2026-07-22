@@ -117,12 +117,12 @@
                 </div>
             </div>
         </div>
-    <div id="leadPopupModal" style="display:none; position:fixed; z-index:999999; left:0; top:0; width:100%; height:100%; background-color:rgba(14,0,53,0.6); justify-content:center; align-items:center; backdrop-filter:blur(6px); padding:20px;">
-        <div style="background:#fff; width:100%; max-width:400px; border-radius:16px; padding:30px; box-shadow:0 10px 30px rgba(0,0,0,0.15); position:relative; animation:tpSlideUp 0.4s ease-out;">
-            <span class="close-lead-popup" style="position:absolute; right:20px; top:15px; font-size:28px; font-weight:bold; cursor:pointer; color:#999; line-height:1;" title="Close">&times;</span>
-            <div class="text-center mb-25" style="text-align: center; margin-bottom: 25px;">
-                <h3 style="font-size:22px; font-weight:800; color:#0e0035; margin-bottom:5px;">Quick Inquiry</h3>
-                <div style="background: #fff8eb; border: 1px solid #ffd899; color: #b26a00; font-size: 13px; font-weight: bold; padding: 10px 15px; border-radius: 8px; margin-top: 10px; margin-bottom: 10px; line-height: 1.4;">
+    <div id="leadPopupModal" style="display:none; position:fixed; z-index:999999; left:0; top:0; width:100%; height:100%; background-color:rgba(14,0,53,0.6); justify-content:center; align-items:center; backdrop-filter:blur(6px); padding:10px;">
+        <div style="background:#fff; width:95%; max-width:380px; max-height:92vh; overflow-y:auto; border-radius:14px; padding:18px 15px; box-shadow:0 10px 30px rgba(0,0,0,0.2); position:relative; animation:tpSlideUp 0.3s ease-out; margin:auto;">
+            <span class="close-lead-popup" style="position:absolute; right:15px; top:12px; font-size:24px; font-weight:bold; cursor:pointer; color:#888; line-height:1;" title="Close">&times;</span>
+            <div class="text-center mb-10" style="text-align: center; margin-bottom: 10px;">
+                <h3 style="font-size:18px; font-weight:800; color:#0e0035; margin-bottom:3px;">Quick Inquiry</h3>
+                <div style="background: #fff8eb; border: 1px solid #ffd899; color: #b26a00; font-size: 11px; font-weight: bold; padding: 6px 10px; border-radius: 6px; margin-top: 4px; line-height: 1.3;">
                     ⚠️ Fill form to continue browsing.
                 </div>
             </div>
