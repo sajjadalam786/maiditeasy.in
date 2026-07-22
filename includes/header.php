@@ -39,36 +39,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         gtag('config', 'G-CVM7MFBVX0');
       </script>
 
-      <!-- Google tag (gtag.js) - Tag 1 -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10827514627"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-10827514627');
-      </script>
-      
-      <!-- Google tag (gtag.js) - AW-10937809978 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10937809978"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-10937809978');
-    </script>
-
-      <!-- Google tag (gtag.js) - Tag 2 -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=GT-WP4T5FMD"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'GT-WP4T5FMD');
-      </script>
-
       <!-- Microsoft Clarity -->
       <script type="text/javascript">
           (function(c,l,a,r,i,t,y){
