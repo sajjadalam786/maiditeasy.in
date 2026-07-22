@@ -52,6 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = strip_tags(trim($_POST["phone"]));
     $alternate_phone = isset($_POST["alternate_phone"]) ? strip_tags(trim($_POST["alternate_phone"])) : '';
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $city = isset($_POST["city"]) ? strip_tags(trim($_POST["city"])) : '';
     $service = strip_tags(trim($_POST["service"]));
     $urgency = isset($_POST["urgency"]) ? strip_tags(trim($_POST["urgency"])) : '';
     $referrer = isset($_POST["referrer"]) ? strip_tags(trim($_POST["referrer"])) : '';
@@ -70,6 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content .= "Phone: $phone\n";
     $email_content .= "Alternate Phone: $alternate_phone\n";
     $email_content .= "Email: $email\n";
+    $email_content .= "City: $city\n";
     $email_content .= "Service: $service\n";
     $email_content .= "Urgency: $urgency\n";
     $email_content .= "How did they hear: $referrer\n\n";
@@ -89,6 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'phone' => $phone,
                 'alternate_phone' => $alternate_phone,
                 'email' => $email,
+                'city' => $city,
                 'service' => $service,
                 'urgency' => $urgency,
                 'referrer' => $referrer,
@@ -115,6 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             'name' => $name,
             'phone' => $phone,
             'email' => $email,
+            'city' => $city,
             'service' => $service,
             'urgency' => $urgency,
             'referrer' => $referrer,

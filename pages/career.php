@@ -131,9 +131,25 @@ include '../includes/header.php';
                                     </select>
                                 </div>
 
-                                <div class="form-group mb-3">
-                                    <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Preferred Work Location (City/Area) *</label>
-                                    <input type="text" name="location" class="form-control" placeholder="e.g. Madhapur, Hyderabad" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                                <div class="row">
+                                    <div class="col-md-6 form-group mb-3">
+                                        <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">City *</label>
+                                        <select name="city" class="form-control" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px; background-color: #fff;">
+                                            <option value="">-- Select City --</option>
+                                            <option value="Hyderabad">Hyderabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Delhi NCR">Delhi NCR</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 form-group mb-3">
+                                        <label style="font-weight: 600; margin-bottom: 5px; font-size: 13px; display: block;">Preferred Work Area / Address *</label>
+                                        <input type="text" name="location" class="form-control" placeholder="e.g. Madhapur, Gachibowli" required style="height: 40px; border-radius: 6px; font-size: 13px; border: 1px solid #ced4da; width: 100%; padding: 8px 12px;">
+                                    </div>
                                 </div>
 
                                 <div class="form-group mb-3">

@@ -15,6 +15,20 @@ $form_uniq = uniqid('sf_');
         <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Email Address *</label>
         <input type="email" name="email" required placeholder="Enter your email" style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; height:45px;">
     </div>
+    <div style="margin-bottom: 15px;">
+        <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">City *</label>
+        <select name="city" required style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; background:#fff; height:45px;">
+            <option value="" disabled selected>Select City</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi NCR">Delhi NCR</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
     <div style="margin-bottom: 20px;">
         <label style="font-size:13px; font-weight:600; color:#333; margin-bottom:5px; display:block;">Service Required *</label>
         <select name="service" required style="width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; background:#fff; height:45px;">

@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
     $phone = strip_tags(trim($_POST["phone"]));
     $alternate_phone = strip_tags(trim($_POST["alternate_phone"]));
+    $city = isset($_POST["city"]) ? strip_tags(trim($_POST["city"])) : '';
     $age = strip_tags(trim($_POST["age"]));
     $gender = strip_tags(trim($_POST["gender"]));
     $role = strip_tags(trim($_POST["role"]));
@@ -41,13 +42,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content = "Name: $name\n";
     $email_content .= "Phone: $phone\n";
     $email_content .= "Alternate Phone: $alternate_phone\n";
+    $email_content .= "City: $city\n";
     $email_content .= "Age: $age\n";
     $email_content .= "Gender: $gender\n";
     $email_content .= "Role Applied For: $role\n";
     $email_content .= "Experience: $experience\n";
     $email_content .= "Expected Salary: $salary\n";
     $email_content .= "Work Type Preference: $work_type\n";
-    $email_content .= "Preferred Work Location: $location\n\n";
+    $email_content .= "Preferred Work Area/Address: $location\n\n";
     $email_content .= "Work History/Remarks:\n$message\n";
     
     $email_headers = "From: Maid It Easy Careers <no-reply@maiditeasy.in>";
@@ -63,6 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'name' => $name,
                 'phone' => $phone,
                 'alternate_phone' => $alternate_phone,
+                'city' => $city,
                 'age' => $age,
                 'gender' => $gender,
                 'role' => $role,
