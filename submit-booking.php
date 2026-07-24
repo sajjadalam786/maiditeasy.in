@@ -12,6 +12,7 @@
        rowData.push(e.parameter.name);
        rowData.push(e.parameter.phone);
        rowData.push(e.parameter.email);
+       rowData.push(e.parameter.city);
        rowData.push(e.parameter.service);
        rowData.push(e.parameter.urgency);
        rowData.push(e.parameter.referrer);

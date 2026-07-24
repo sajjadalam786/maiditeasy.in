@@ -14,7 +14,7 @@ if (!isset($page_description)) {
     $page_description = "Book trusted and verified maids, cooks, drivers, babysitters, and elderly care services with Maid It Easy. Professional, reliable, and hassle-free domestic help.";
 }
 if (!isset($canonical_url)) {
-    $canonical_url = "https://maiditeasy.in" . $_SERVER['REQUEST_URI'];
+    $canonical_url = "https://maiditeasy.co.in" . $_SERVER['REQUEST_URI'];
 }
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
@@ -57,26 +57,56 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link class="canonical-link" rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
 
+      <!-- Typography Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
       <?php if (isset($additional_head)) { echo $additional_head; } ?>
 
       <!-- Technical SEO: Schema Markup -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Maid It Easy",
-        "image": "https://maiditeasy.in/assets/img/logo/logo-blue.png",
-        "url": "https://maiditeasy.in/",
-        "telephone": "+91 9866769832",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "2ND FLOOR, PLOT NO 2, SECTOR 1 SY NO 64, Huda Techno Enclave, Madhapur",
-          "addressLocality": "Hyderabad",
-          "addressRegion": "Telangana",
-          "postalCode": "500081",
-          "addressCountry": "IN"
-        },
-        "description": "Book trusted and verified maids, cooks, drivers, babysitters, and elderly care services with Maid It Easy."
+        "@graph": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://maiditeasy.co.in/#organization",
+            "name": "Maid It Easy",
+            "image": "https://maiditeasy.co.in/assets/img/logo/logo-blue.png",
+            "logo": "https://maiditeasy.co.in/assets/img/logo/logo-blue.png",
+            "url": "https://maiditeasy.co.in/",
+            "telephone": "+91 9866769832",
+            "priceRange": "₹₹",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2ND FLOOR, PLOT NO 2, SECTOR 1 SY NO 64, Huda Techno Enclave, Madhapur",
+              "addressLocality": "Hyderabad",
+              "addressRegion": "Telangana",
+              "postalCode": "500081",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 17.4483,
+              "longitude": 78.3915
+            },
+            "areaServed": [
+              "Hyderabad", "Bangalore", "Mumbai", "Pune", "Chennai", "Delhi NCR", "Ahmedabad"
+            ],
+            "description": "Get verified maids, cooks, nannies, caretakers, drivers, and security guards sent right to your home. Verified domestic helper agency."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maiditeasy.co.in/#website",
+            "url": "https://maiditeasy.co.in/",
+            "name": "Maid It Easy",
+            "description": "Professional Domestic Helper Aggregation Agency",
+            "publisher": {
+              "@id": "https://maiditeasy.co.in/#organization"
+            }
+          }
+        ]
       }
       </script>
 

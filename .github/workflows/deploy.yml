@@ -16,12 +16,30 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Deploy via FTP to Hostinger
+      - name: Deploy via FTP to Hostinger (Server 1)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./
+          server-dir: /public_html/
+          protocol: ftps
+          port: 21
+          security: loose
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .env
+            config.env
+            *.md
+
+      - name: Deploy via FTP to Server 2
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER_2 }}
+          username: ${{ secrets.FTP_USERNAME_2 }}
+          password: ${{ secrets.FTP_PASSWORD_2 }}
           local-dir: ./
           server-dir: /public_html/
           protocol: ftps

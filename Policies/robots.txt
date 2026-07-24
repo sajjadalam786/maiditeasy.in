@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://maiditeasy.in/Policies/sitemap.xml
+Sitemap: https://maiditeasy.co.in/Policies/sitemap.xml

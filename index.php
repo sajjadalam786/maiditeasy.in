@@ -1,7 +1,7 @@
 <?php
 $page_title = "Maid It Easy | Best & Number One Maid Agency in India";
 $page_description = "Book trusted and verified maids, cooks, drivers, babysitters, and elderly care services with Maid It Easy. Professional, reliable, and hassle-free domestic help.";
-$canonical_url = "https://maiditeasy.in/index.php";
+$canonical_url = "https://maiditeasy.co.in/index.php";
 include 'includes/header.php';
 ?>
       <main>
@@ -17,12 +17,11 @@ include 'includes/header.php';
                     <div class="col-12">
                       <div class="tp-slider-wrapper mt-10 position-relative">
                         <div class="tp-slider z-index">
-                          <h1 class="tp-slider-title mb-45" data-animation="fadeInUp" data-delay=".8s">
-                            Domestic Help<br />Made Easy! <br />
+                          <h1 class="tp-slider-title mb-25" data-animation="fadeInUp" data-delay=".8s" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(22px, 5vw, 42px); font-weight: 800; line-height: 1.25; color: #0e0035; max-width: 920px;">
+                            Get Verified <span style="color: #ff890c;">Maids, Cooks, Nannies, Caretakers, Drivers</span>, and <span style="color: #ff890c;">Security Guards</span> Sent Right to Your Home.
                           </h1>
                           
-                          <!-- Technical SEO: Switched to P tag to prevent H-tag hierarchy jump -->
-                          <p style="color:grey; font-size: 1.25rem; font-weight: 500; margin-bottom: 25px;" data-animation="fadeInUp" data-delay="0.9s">&nbsp;&nbsp;Click to book our services!</p>
+                          <p style="color: #555; font-size: 1.1rem; font-weight: 600; margin-bottom: 25px;" data-animation="fadeInUp" data-delay="0.9s">Click below to book trusted domestic helpers instantly:</p>
                            
                           <div class="hero-btn-grid" data-animation="fadeInUp" data-delay="1.1s">
                              <!-- Rule 7: Maid points to maid-service.html -->
@@ -162,7 +161,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/elderly-care-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                        <i> <img src="assets/old-man.png" alt="Elderly Care Icon" width="24" height="24"> </i>
+                        <i class="fa fa-heartbeat" style="font-size: 44px; color: #0e0035; line-height: 1;"></i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -180,7 +179,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/driver-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                     <i> <img src="assets/person.png" alt="Driver Icon" width="24" height="24"></i>
+                        <i class="fa fa-car" style="font-size: 42px; color: #0e0035; line-height: 1;"></i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -198,7 +197,7 @@ include 'includes/header.php';
                   <div class="col-xl-4 col-sm-6 col-6">
                     <div class="tp-services white-bg mb-30" onclick="location.href='services/watchman-security-guard-service.php';">
                       <div class="tp-services-icon yellow-circle-shape">
-                     <i> <img src="assets/person.png" alt="Security Guard Icon" width="24" height="24"></i>
+                        <i class="fa fa-shield" style="font-size: 44px; color: #0e0035; line-height: 1;"></i>
                       </div>
                       <div class="tp-services-text fix">
                         <h3 class="tp-services-text-title mb-15 hover-theme-color">
@@ -233,7 +232,7 @@ include 'includes/header.php';
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
                                 <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Search Feature" width="80" height="80" loading="lazy">
-                                <i class="flaticon-booking"></i>
+                                <i class="fa fa-search" style="font-size: 30px; color: #ffffff;"></i>
                             </div>
                             <div class="tp-feature-three-text">
                                 <h3 class="tp-feature-three-title mb-20"><a href="#">Search</a></h3>
@@ -245,7 +244,7 @@ include 'includes/header.php';
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
                                 <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Shortlist Feature" width="80" height="80" loading="lazy">
-                                <i class="flaticon-delivery-box"></i>
+                                <i class="fa fa-users" style="font-size: 30px; color: #ffffff;"></i>
                             </div>
                             <div class="tp-feature-three-text">
                                 <h3 class="tp-feature-three-title mb-20"><a href="#">Shortlist & Meet</a></h3>
@@ -258,7 +257,7 @@ include 'includes/header.php';
                         <div class="tp-feature-three text-center mb-30">
                             <div class="tp-feature-three-icon mb-30">
                                 <img src="assets/img/icon/feature-bg.png" class="img-fluid" alt="Maid It Easy Selection Feature" width="80" height="80" loading="lazy">
-                                <i class="flaticon-cleaning"></i>
+                                <i class="flaticon-happy" style="font-size: 30px; color: #ffffff;"></i>
                             </div>
                             <div class="tp-feature-three-text">
                                 <h3 class="tp-feature-three-title mb-20"><a href="#">Select & Relax</a></h3>
